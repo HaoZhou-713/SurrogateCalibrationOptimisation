@@ -1,0 +1,51 @@
+repeat,partition_seed,outer_fold,model_role,selected_family,selected_kernel,inner_cv_score,n_outer_train,n_outer_test
+0,0,0,final_outer_model,ICM,"[""Matern"", 0.5]",0.7861955967743575,40,10
+0,0,1,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 0.5]]",0.7660234986300518,40,10
+0,0,2,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.9361469676327734,40,10
+0,0,3,final_outer_model,IND,"[[""Matern"", 0.5], [""RBF"", null]]",0.8759026754881261,40,10
+0,0,4,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.7358061939874985,40,10
+1,1,0,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.7458447573722773,40,10
+1,1,1,final_outer_model,ICM,"[""Matern"", 2.5]",0.7378725451486577,40,10
+1,1,2,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.7796448952751107,40,10
+1,1,3,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.8968134180042648,40,10
+1,1,4,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.8851543937629691,40,10
+2,2,0,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.8051897012919669,40,10
+2,2,1,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.8135619140132457,40,10
+2,2,2,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 0.5]]",0.7792970456533546,40,10
+2,2,3,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 1.5]]",0.7717241129654631,40,10
+2,2,4,final_outer_model,ICM,"[""Matern"", 2.5]",0.8535520229391306,40,10
+3,3,0,final_outer_model,ICM,"[""RBF"", null]",0.880908023978189,40,10
+3,3,1,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.7895094001102438,40,10
+3,3,2,final_outer_model,IND,"[[""Matern"", 2.5], [""Matern"", 0.5]]",0.7276768519706832,40,10
+3,3,3,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 1.5]]",0.8338855807747194,40,10
+3,3,4,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 1.5]]",0.8073429603072833,40,10
+4,4,0,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.7741079341176982,40,10
+4,4,1,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.9862851612263777,40,10
+4,4,2,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 2.5]]",0.6773869757125641,40,10
+4,4,3,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 2.5]]",0.7538211378475452,40,10
+4,4,4,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 0.5]]",0.6997251519355855,40,10
+5,5,0,final_outer_model,IND,"[[""Matern"", 0.5], [""RBF"", null]]",0.7356666802259655,40,10
+5,5,1,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.8844632731981874,40,10
+5,5,2,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.78261360728812,40,10
+5,5,3,final_outer_model,IND,"[[""Matern"", 2.5], [""Matern"", 0.5]]",0.755540952498041,40,10
+5,5,4,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.9123792244197981,40,10
+6,6,0,final_outer_model,IND,"[[""Matern"", 2.5], [""Matern"", 1.5]]",0.7384983072061608,40,10
+6,6,1,final_outer_model,IND,"[[""Matern"", 2.5], [""Matern"", 0.5]]",0.7964024422120651,40,10
+6,6,2,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 0.5]]",0.7237120354929256,40,10
+6,6,3,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.7568336460593617,40,10
+6,6,4,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.8609522915107024,40,10
+7,7,0,final_outer_model,ICM,"[""Matern"", 2.5]",0.8475170530937918,40,10
+7,7,1,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.772345408011569,40,10
+7,7,2,final_outer_model,IND,"[[""Matern"", 0.5], [""RBF"", null]]",0.7460989520403299,40,10
+7,7,3,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.9092024287815366,40,10
+7,7,4,final_outer_model,IND,"[[""Matern"", 2.5], [""Matern"", 0.5]]",0.9343331311289481,40,10
+8,8,0,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.8156247844171074,40,10
+8,8,1,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.8796039075924877,40,10
+8,8,2,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.97563730506473,40,10
+8,8,3,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.7792170596822756,40,10
+8,8,4,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 1.5]]",0.7763537325452214,40,10
+9,9,0,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.7400174098062313,40,10
+9,9,1,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.8265498166007887,40,10
+9,9,2,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5]]",0.887484008236704,40,10
+9,9,3,final_outer_model,IND,"[[""Matern"", 2.5], [""Matern"", 1.5]]",0.6326891925233273,40,10
+9,9,4,final_outer_model,ICM,"[""RBF"", null]",0.9106050529986621,40,10

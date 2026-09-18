@@ -1,0 +1,8 @@
+name: surrogate-reproducible
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.15
+  - pip
+  - pip:
+      - -r requirements.txt

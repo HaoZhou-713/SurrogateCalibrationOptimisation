@@ -1,0 +1,51 @@
+repeat,partition_seed,outer_fold,model_role,selected_family,selected_kernel,inner_cv_score,n_outer_train,n_outer_test
+0,0,0,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 1.5], [""Matern"", 0.5]]",52.474489925319475,80,20
+0,0,1,final_outer_model,ICM,"[""Matern"", 0.5]",72.16957569550866,80,20
+0,0,2,final_outer_model,IND,"[[""RBF"", null], [""Matern"", 1.5], [""Matern"", 0.5]]",75.75397373141288,80,20
+0,0,3,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 2.5], [""Matern"", 0.5]]",66.63501853817176,80,20
+0,0,4,final_outer_model,ICM,"[""Matern"", 1.5]",64.31828829094951,80,20
+1,1,0,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 0.5], [""Matern"", 0.5]]",69.1526607970647,80,20
+1,1,1,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5], [""Matern"", 0.5]]",74.73774062649414,80,20
+1,1,2,final_outer_model,ICM,"[""Matern"", 0.5]",68.25616056959686,80,20
+1,1,3,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 1.5], [""RBF"", null]]",64.44598051084087,80,20
+1,1,4,final_outer_model,ICM,"[""Matern"", 1.5]",76.94505056630992,80,20
+2,2,0,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5], [""Matern"", 0.5]]",52.72805232373024,80,20
+2,2,1,final_outer_model,IND,"[[""Matern"", 2.5], [""Matern"", 0.5], [""Matern"", 0.5]]",64.03712116375054,80,20
+2,2,2,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5], [""Matern"", 0.5]]",75.76255151923966,80,20
+2,2,3,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 2.5], [""Matern"", 0.5]]",71.03582267740103,80,20
+2,2,4,final_outer_model,ICM,"[""Matern"", 1.5]",81.71745853989685,80,20
+3,3,0,final_outer_model,IND,"[[""Matern"", 2.5], [""Matern"", 0.5], [""Matern"", 0.5]]",71.06364943682371,80,20
+3,3,1,final_outer_model,IND,"[[""Matern"", 0.5], [""RBF"", null], [""Matern"", 0.5]]",58.18751118804607,80,20
+3,3,2,final_outer_model,ICM,"[""Matern"", 2.5]",74.61344149295576,80,20
+3,3,3,final_outer_model,ICM,"[""Matern"", 0.5]",71.15555136923612,80,20
+3,3,4,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5], [""Matern"", 0.5]]",61.19351739147406,80,20
+4,4,0,final_outer_model,IND,"[[""Matern"", 0.5], [""RBF"", null], [""Matern"", 0.5]]",51.21927961615864,80,20
+4,4,1,final_outer_model,ICM,"[""Matern"", 2.5]",68.35383738132327,80,20
+4,4,2,final_outer_model,IND,"[[""RBF"", null], [""Matern"", 1.5], [""Matern"", 0.5]]",63.34569809803607,80,20
+4,4,3,final_outer_model,ICM,"[""Matern"", 2.5]",67.73539042661008,80,20
+4,4,4,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5], [""Matern"", 0.5]]",68.81525443174986,80,20
+5,5,0,final_outer_model,ICM,"[""RBF"", null]",64.16074555256408,80,20
+5,5,1,final_outer_model,ICM,"[""Matern"", 1.5]",59.17939953533388,80,20
+5,5,2,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 2.5], [""Matern"", 0.5]]",70.26761302268878,80,20
+5,5,3,final_outer_model,IND,"[[""Matern"", 2.5], [""Matern"", 0.5], [""Matern"", 0.5]]",72.7323498790135,80,20
+5,5,4,final_outer_model,ICM,"[""Matern"", 1.5]",58.498075555499454,80,20
+6,6,0,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 1.5], [""Matern"", 0.5]]",68.11988920264193,80,20
+6,6,1,final_outer_model,ICM,"[""Matern"", 1.5]",57.38276694900003,80,20
+6,6,2,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5], [""Matern"", 2.5]]",70.94290323812096,80,20
+6,6,3,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5], [""Matern"", 0.5]]",69.45793208448187,80,20
+6,6,4,final_outer_model,ICM,"[""Matern"", 0.5]",66.44098964488656,80,20
+7,7,0,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 1.5], [""Matern"", 0.5]]",59.87804833384278,80,20
+7,7,1,final_outer_model,ICM,"[""Matern"", 2.5]",63.40692233594423,80,20
+7,7,2,final_outer_model,ICM,"[""Matern"", 0.5]",60.21652454293046,80,20
+7,7,3,final_outer_model,ICM,"[""RBF"", null]",75.45625354523818,80,20
+7,7,4,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 1.5], [""Matern"", 0.5]]",65.1832949574021,80,20
+8,8,0,final_outer_model,IND,"[[""RBF"", null], [""Matern"", 0.5], [""Matern"", 0.5]]",75.603728266977,80,20
+8,8,1,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 1.5], [""Matern"", 0.5]]",77.36689446439621,80,20
+8,8,2,final_outer_model,ICM,"[""RBF"", null]",74.18152281691505,80,20
+8,8,3,final_outer_model,ICM,"[""RBF"", null]",69.47875326256846,80,20
+8,8,4,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5], [""Matern"", 0.5]]",58.66466575971847,80,20
+9,9,0,final_outer_model,IND,"[[""Matern"", 1.5], [""Matern"", 0.5], [""Matern"", 0.5]]",63.73305217988536,80,20
+9,9,1,final_outer_model,ICM,"[""Matern"", 1.5]",74.47007257321818,80,20
+9,9,2,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 0.5], [""RBF"", null]]",64.5067034233032,80,20
+9,9,3,final_outer_model,IND,"[[""Matern"", 0.5], [""Matern"", 1.5], [""Matern"", 0.5]]",60.499474056385175,80,20
+9,9,4,final_outer_model,ICM,"[""Matern"", 2.5]",72.339212408072,80,20

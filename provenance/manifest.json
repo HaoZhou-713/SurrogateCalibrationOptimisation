@@ -1,0 +1,1366 @@
+{
+  "format_version": 1,
+  "description": "Hashes of all shipped source, inputs, reference artifacts and documentation; outputs and Git metadata excluded. Source origin is recorded in workflow provenance files.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 74,
+      "sha256": "5f475b3aecfe7f99ffde857d1d8acbd9ce84164adb07635b64b90b0ca6e87f53"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 100,
+      "sha256": "cef613e48d77aef522f7b9c8157ba1ff6d7fcbc02084c9600be2a587a0b99b4b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6765,
+      "sha256": "5dc308e05d39f11b3a0382fc558e075053a899718d8944fb0b9f3fe3405d9575"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 133,
+      "sha256": "ea05a4db1ce2b5ca41e182e0a0be168be74e109591e0c1e26d947da6dee986b0"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 7147,
+      "sha256": "e0ceb841e4833e48a585a9a51c40d718149689ce680dd914d37fe0bc371c2681"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 965,
+      "sha256": "9fa9dbae863a491750e13e1a90310f9d7a99f9139208865dcf64427dac422694"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 471,
+      "sha256": "9ec414172fd64bba9388ae82c2fd56bda2fba4ca3787e72c260a4886fb989b90"
+    },
+    {
+      "path": "docs/benchmark.md",
+      "bytes": 12451,
+      "sha256": "3337d58cd65e94be0d21ef3583fbd925d89fdc332f1c2e48dc80a36d466ba180"
+    },
+    {
+      "path": "docs/implementation-plan.md",
+      "bytes": 2683,
+      "sha256": "b0bd24b47fe6a1425457c722a2c080358aaa8383770a8b8932b74da02e384135"
+    },
+    {
+      "path": "docs/inhouse.md",
+      "bytes": 6545,
+      "sha256": "71646dd2cd57fd1114f509a6ec9876bc77b3f797a06aa3a9a728cff15366c38e"
+    },
+    {
+      "path": "docs/public.md",
+      "bytes": 7556,
+      "sha256": "978b2d26e911126e008c740dc496755b4051106b2787099ff6650dcd3341e2f8"
+    },
+    {
+      "path": "docs/validation.md",
+      "bytes": 4533,
+      "sha256": "9bd01589da0bc03632f6698d99325936277176ed9f3c72b1d9a7f8eda236b0e0"
+    },
+    {
+      "path": "legacy/surrogate_pareto_botorch.py",
+      "bytes": 35251,
+      "sha256": "d053dccd3b9dd3ac64d5dcf4affa5a6758667ed25f51943d084bab0ad6183e89"
+    },
+    {
+      "path": "legacy/surrogate_pipeline.py",
+      "bytes": 50442,
+      "sha256": "29b16b308aaa56528b9bcf47161f00502e6afd461de79df7a753994b2ad6117e"
+    },
+    {
+      "path": "provenance/benchmark.json",
+      "bytes": 61034,
+      "sha256": "e8eaccdaf3411dda4c6226ab8cb41a1007afb44ae4c57f1368513c39ba0d6aa4"
+    },
+    {
+      "path": "provenance/environment-observed.json",
+      "bytes": 516,
+      "sha256": "2151167f4dbc6bb664259cff903d00080fa23f4b0781c79f0ce5bb5b4578d401"
+    },
+    {
+      "path": "provenance/inhouse.json",
+      "bytes": 11390,
+      "sha256": "21cca2fcde468908d058368c5ca32833358df9455885d23c5d46bc47c2b5e668"
+    },
+    {
+      "path": "provenance/legacy.json",
+      "bytes": 802,
+      "sha256": "f7559b5a4e2ee6f4b99405d9c920888f5358fe0a685ddf8ccfa7d9fc77c08ca5"
+    },
+    {
+      "path": "provenance/public.json",
+      "bytes": 49285,
+      "sha256": "8403b079769a4070002da5a328221e83832fe32822b4c11005e9c7a80b1bcccc"
+    },
+    {
+      "path": "provenance/validation-results.json",
+      "bytes": 3855,
+      "sha256": "e9d1e4c07194c9748362db4cd0d5d5870b8353837b876e8512d3449590462d72"
+    },
+    {
+      "path": "tests/test_repository.py",
+      "bytes": 3819,
+      "sha256": "f085a9dcaf81380704fe856b129d8d79770a500d2e31f53189bfc42fb5cfe573"
+    },
+    {
+      "path": "workflows/benchmark/run.py",
+      "bytes": 14931,
+      "sha256": "4cefdb5092ebded1ba308a4857b52b1c82b9ea7aec163933a228d31860c781be"
+    },
+    {
+      "path": "workflows/benchmark/test_orchestration.py",
+      "bytes": 2659,
+      "sha256": "6df46a493d347742ab6c7ec6b4888822a7161dae9d22edf7875abdeb9fd1f941"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_cv_metrics.csv",
+      "bytes": 19909,
+      "sha256": "009f53442a142ebd14f0ed2affe51df17b15825ed4f1447c039476107c512244"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_final.csv",
+      "bytes": 13568,
+      "sha256": "894aca0cba78539be7be237b4ab80045734931f031246857d387d5ca381d8fa9"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_five_methods.csv",
+      "bytes": 103799,
+      "sha256": "19ffb1c53b1446d9a35f212d5da3820c8a2a070fcfbaa7851eb471e27a3feaec"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_five_methods_summary.csv",
+      "bytes": 14529,
+      "sha256": "5ecbc4b4b4948ba3b167f95d2e44c67ffedfadce66f8915e04c795a16f5d8c00"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_vanilla.csv",
+      "bytes": 19365,
+      "sha256": "3d49066b20564253ecfbd19c78c35fabd9d9aad60d830b8bd7a66beef73a929b"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_vanilla_summary.csv",
+      "bytes": 12216,
+      "sha256": "2fb8357504051ef7e6fcdc27402d93e84d41230d45a4ff0408377b0ce9a682db"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_cv_metrics.csv",
+      "bytes": 205634,
+      "sha256": "ee4bebcda0349f620bbeaa279ebc6e190977f8de15a6d6a850ae68ca083ec735"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_final.csv",
+      "bytes": 7534,
+      "sha256": "1e5790d66814f194717b1785135cd1c5991f6ed1bd91e2955c8d853505e613f9"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_five_methods.csv",
+      "bytes": 101972,
+      "sha256": "2cfa1804563779b55b7407f5ea54f76edee8f9de108c1ba87d7158b240ce81b9"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_five_methods_summary.csv",
+      "bytes": 14577,
+      "sha256": "000cbf4777db080abb5ad36d7f885de32c236234cc53323f12f5d5aa63a45f49"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_vanilla.csv",
+      "bytes": 19528,
+      "sha256": "cc2e92a5660885cb2ec24e62077f42d1647a4acf8f8d57251488d68ad480f1bb"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_vanilla_summary.csv",
+      "bytes": 12260,
+      "sha256": "7d47766941882522f146a8f6a1773a6c3afbd6690223cb7f7aa129b1a33b45f2"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/DTLZ2/basic_results.csv",
+      "bytes": 168826,
+      "sha256": "8a5d7baf0a1d547c3c8f4b06557195f0f62291b1aa984635598feeb612f81797"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/DTLZ2/cv+_results.csv",
+      "bytes": 174818,
+      "sha256": "30edb81e2e807a3ceedf8671974aea53ecb3c4d7319acc5c6aca35e9ef06f3ed"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/DTLZ2/normal_cali_results.csv",
+      "bytes": 172918,
+      "sha256": "671dfad2fb60af5bafa1491a13d1cd0f3a7f38059e301e1d82b6c826df13aadc"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/FON/New_method_results.csv",
+      "bytes": 194361,
+      "sha256": "356230437b5d752e729eb79682eb0ac2ab40f2ec16c4789df5fbe02cc2e1de97"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/FON/basic_results.csv",
+      "bytes": 232882,
+      "sha256": "614864410be27e7cccd3b37558d4eadcd1b43c568028b3456c71d3bc204f3a51"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/FON/calibrated_results.csv",
+      "bytes": 179671,
+      "sha256": "f13f7efc67eee00b97c9aae63daab83d046dac3c2c6b87f033c0ac34a00a8620"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/fig5_1_surrogate_accuracy_calibration.pdf",
+      "bytes": 61740,
+      "sha256": "2404fbc0f595ca06471572718d615c220626616ef7c15427c9861773c313471b"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/fig5_2_pareto_performance.pdf",
+      "bytes": 66468,
+      "sha256": "b2fa00f632798425f86694a769add5120c9850267a1f94357b4cc98c4887b89e"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/fig5_2_pareto_performance_new.pdf",
+      "bytes": 66468,
+      "sha256": "b2fa00f632798425f86694a769add5120c9850267a1f94357b4cc98c4887b89e"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/fig5_3_dtlz2_sample_size_sensitivity.pdf",
+      "bytes": 51505,
+      "sha256": "227bd34b4324912b988da8bdb243b9abc4b0c8aecfd00a55e207a698e609d34f"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/fig5_4_reliability_vs_pareto.pdf",
+      "bytes": 47354,
+      "sha256": "f4f4f24cdd0ee6609509a59ee09650f72be3d1c0b6b7a08275cbc4a2891a36a5"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_5_controlled_benchmark_summary.pdf",
+      "bytes": 54943,
+      "sha256": "87889f157a46459df8fe17db4a31f60138d4d4da528c08b80bac1fd9066eda1a"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_5_controlled_benchmark_summary_formatted.csv",
+      "bytes": 1930,
+      "sha256": "3130b4e6ece7e9a640379fcd10450eb886d256abca9287b8c38bb5ff88f08675"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_5_controlled_benchmark_summary_numeric.csv",
+      "bytes": 3358,
+      "sha256": "64918be944f5f2b7d963acbf44185497c00b0cb345ec2882714ecf0c4f5fddf2"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_benchmark_cost_evaluation_formatted.csv",
+      "bytes": 921,
+      "sha256": "d47dc5a449ffbfb306e11cb593d015f36af7f52949674577d518b42c2665259b"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_benchmark_cost_evaluation_numeric.csv",
+      "bytes": 10806,
+      "sha256": "9322c2e626c51570ba1a6b2f6fcca73c0d9012b1567cc2c751ec0113b3cb18c6"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_calibration_reliability_diagonal.csv",
+      "bytes": 879,
+      "sha256": "8bf83cab2155a957985620537c59d0546be458d621f63489831b6e03caecd58b"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_dtlz2_sample_size_sensitivity - update.csv",
+      "bytes": 3875,
+      "sha256": "592055e1fb684335d7ba7a5c938ea5fbb0bd3049d7fdf7e248eb54b894f9354a"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_dtlz2_sample_size_sensitivity.csv",
+      "bytes": 4615,
+      "sha256": "b0febe3e638cc2699662bdef89e7e8b876fd3e5e1a89a4b92333ed9cac7d6505"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_110.csv",
+      "bytes": 19906,
+      "sha256": "12ae1684bb38e5803fa8397d6c2f7fa4d3bfae481155607188049f14faa30827"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_110_summary.csv",
+      "bytes": 12003,
+      "sha256": "e770ba5827483d70f4a9efb45dec032987742529a0ab13a357d1ac1a3b15ff05"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_30.csv",
+      "bytes": 19809,
+      "sha256": "d333e511238b05c4825c9aeeefed6c816be1de44feebd0d7ff38a757fb88bd83"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_30_summary.csv",
+      "bytes": 11868,
+      "sha256": "1b652bafdc8129de413ac696c671637d0f805a0873e8f38524b148339b8ac448"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_50.csv",
+      "bytes": 19713,
+      "sha256": "7ca187ec8d8c6299fef7dfce3722cde1185cd19c34fa5e31629ee12948fed20c"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_50_summary.csv",
+      "bytes": 11923,
+      "sha256": "46f4337f447d5b151b63b2ad82d5315d8bac9ac6060631c335f1fb2bba901abc"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_90.csv",
+      "bytes": 19949,
+      "sha256": "f9f000c6e293f3607af548d477cfe7d8082d2c0dbcad9f60ffdd425fede60771"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_90_summary.csv",
+      "bytes": 11950,
+      "sha256": "ed97955a0fa53cef7f6c5b22678f522d4ce707c143b3c331e4c3c00b0573eabd"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/ece95.xlsx",
+      "bytes": 88942,
+      "sha256": "6ab3325e42cde28bd039862561f15aa73bfc51e9f66076e35817fdbb9303e0fb"
+    },
+    {
+      "path": "workflows/benchmark/source/generate_benchmark_cost_table.py",
+      "bytes": 6427,
+      "sha256": "b2ab91886cfdb99a3bd5e548756898a898f99856bc3600698207c38fe8ac9eb2"
+    },
+    {
+      "path": "workflows/benchmark/source/generate_paper_artifacts.py",
+      "bytes": 18755,
+      "sha256": "88aff9728d2df45eb326bf406944cab7d6d835743142b1d40e38f7b6c219b830"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_001.py",
+      "bytes": 830,
+      "sha256": "1458b6f3eb3125e4d8ae160e3332168afefa1858cd41a846112df33ed6b5c08f"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_002.py",
+      "bytes": 525,
+      "sha256": "fdda19b33467d1aec5f85ac5ad966b1c8d1750a132b904c927b8be44a824d255"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_003.py",
+      "bytes": 2610,
+      "sha256": "738ea7a980b0d88ee94f410a1a1c77e9b358eb29be0c7c7ed238d50e75d14024"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_004.py",
+      "bytes": 529,
+      "sha256": "fcdb936592b82f7fd8106e4f94285e21ad470c4407c48cab34d1b2a2801b40a8"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_005.py",
+      "bytes": 14516,
+      "sha256": "8afbc5386e120d66480bb563508e1c23e96afa9e3f9ac27c1bc7c1694e413f2d"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_006.py",
+      "bytes": 1717,
+      "sha256": "1fc2186a6c4f1fa2f7693a4a49aac665f0fb142bda756b89c761be957a847b29"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_001.py",
+      "bytes": 933,
+      "sha256": "4bfaa51a977f19b127b617e1c3c4e28eb9d98d2cb472dcd62aed9611c2910d8f"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_002.py",
+      "bytes": 2451,
+      "sha256": "de507ddbb2a0d82a1921e303451b6cae31cc99863182b62034b6329436315195"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_003.py",
+      "bytes": 1514,
+      "sha256": "9bdd96f6806a10a74b0e258b27e8198e1f1c9b96ff0686943a9c1d180c32a9cf"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_004.py",
+      "bytes": 1607,
+      "sha256": "cdfca03a2bf98f2d6d390e9c2dabe03880574e6777a1e6195da66e3c14c84436"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_005.py",
+      "bytes": 5401,
+      "sha256": "4d799380fe1d06810d30b5080bfd240d4f5136a7e53f7947d4ca88d8ad6c53a2"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_006.py",
+      "bytes": 4111,
+      "sha256": "65cddfb139e3b5fbb443cb2dd5378c524c38abfabb39b7ca59635e1058a858dd"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_007.py",
+      "bytes": 2279,
+      "sha256": "cce85baaf82b51abc501fd0789347553bdb4ee29bfd267b54afe95c6b8d20c05"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_008.py",
+      "bytes": 5894,
+      "sha256": "4deab8bcf5d2da05cca00db818f8a427bcbce7d339582d31e37c4299dd5e5ed3"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_009.py",
+      "bytes": 3333,
+      "sha256": "fd8af9da840414e3cdbdc27de54f13e1110a8cf5ce8f517e0ca6e2c0185fb5d7"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_010.py",
+      "bytes": 2930,
+      "sha256": "df04799d0665af9b8941c88da91d824fe68c6376af57a54304813782a6c73aaf"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_011.py",
+      "bytes": 646,
+      "sha256": "bfbeefad27dc7197d195f4d63ae0d58e2cf23289ba74925b318ff09d85a9fe3b"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_002.py",
+      "bytes": 392,
+      "sha256": "2901d6b451b61bd940ba4bf54a56dfdcd7bbc4a031251011dba7a0e1a4412343"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_003.py",
+      "bytes": 93,
+      "sha256": "ce6569ec873dbb163082602939376362b26a8fa9c40951073640f5ad659c36e0"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_006.py",
+      "bytes": 253,
+      "sha256": "bececd86e0dc9a534f863c1be680343e52388def3e0689e4d82fc013d5cf1cc0"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_007.py",
+      "bytes": 470,
+      "sha256": "403d37eabf4ae1e5e566627d9c57962162009d9a1b2643beb0fe2e1534dad3f8"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_029.py",
+      "bytes": 1584,
+      "sha256": "8b1d70ac25a05721902e9b284d577804e947565eb8eba513b5322705338bd14b"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_030.py",
+      "bytes": 1376,
+      "sha256": "7a24a2f096e1894f6422593730e8b066329dde82f400aa70a0e6ee3da2d2f011"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_031.py",
+      "bytes": 396,
+      "sha256": "69eaf8fa2c990ebbf8694ce2045b48efbf6356a67fdbec56bea6fe2f856cc798"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_032.py",
+      "bytes": 596,
+      "sha256": "e5baf1dcfb6c9e8dfb0d7f765421322b70385a358e4c7b222b4fc053f3d65243"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_033.py",
+      "bytes": 1373,
+      "sha256": "21cac6dc3de01091f6fd9a44c173acc303bd0d1081863daf8071eb6261d0ad9a"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_034.py",
+      "bytes": 4662,
+      "sha256": "a9189d3801772ceff6d82a7cb88be34041becc0cf803060e54a7e1319c296ca0"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_036.py",
+      "bytes": 190,
+      "sha256": "fc3c7e00cadeed12e33c3d6ead935b6f0e7198256dbd4c7a1e9fb86fc7cec78b"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_041.py",
+      "bytes": 11,
+      "sha256": "37effa9caacd97bad7e2ded872a87a97b8975fca47afea9c20251191e2a288dd"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_042.py",
+      "bytes": 2553,
+      "sha256": "8e4c8c579f1a0875c57c090a4a0ed786c09e8b1ffd1b9705ff27fc9e6e75b7a1"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_048.py",
+      "bytes": 2327,
+      "sha256": "8c938b5018f43fedf846ff69fc8d2f5ff0de890c9bf80f92528e2158f028ea3a"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_050.py",
+      "bytes": 1158,
+      "sha256": "c7d729094b221cf7ec5576d2c0d37f825f3b70f75472cc1bed285058ec833a42"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_052.py",
+      "bytes": 73,
+      "sha256": "36f9d8f93a0750dc7e5a9a35999d006c938c6faa3e602538d65ac2054fd3531c"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_001.py",
+      "bytes": 211,
+      "sha256": "40b34b1cbd350ac25d973ec7e1306c177a603522c765cc2ec4d96da22205c02d"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_002.py",
+      "bytes": 402,
+      "sha256": "336378ea633dc11094374e4be1ae4423b1f52df529476e27a21af0dc847f89c4"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_003.py",
+      "bytes": 5157,
+      "sha256": "08b89e29e63344bf8b885d3873982cc96dd1d586db2f26c98b1c8a01e42ef0e8"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_004.py",
+      "bytes": 1232,
+      "sha256": "c78ae1ccd774e43c3ec2d5bd02fa7668d131b3de66e693c65a1376c5ea44217f"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_005.py",
+      "bytes": 7012,
+      "sha256": "efb994bf8d09e1ae63240c3bd73d71fad8cf6bbcd8f479eda868d36ce5d2c201"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_006.py",
+      "bytes": 3680,
+      "sha256": "0627d5ba716873939ab5ec56a65e87f5be9801259309ac5e2559ca4fa1dd659f"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_002.py",
+      "bytes": 328,
+      "sha256": "290af1ef7658c10f162fea4972bf9903b756c636a5ceb98b3c7b7430f4a63ad9"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_004.py",
+      "bytes": 320,
+      "sha256": "345cf0a2aba0b5d66c65faf771350095ad3ba6776ed2fb228655e9aa2e6254bc"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_005.py",
+      "bytes": 410,
+      "sha256": "7c0b25e6711de3bc005c8d3c4cd15b5dc0d42ae1cdeae2336b06ac5d09c441ea"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_026.py",
+      "bytes": 1584,
+      "sha256": "004b5cf22f8055c8dcf5e55e9674da892b13e6c9c7d9c43db630a07f74120785"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_027.py",
+      "bytes": 1376,
+      "sha256": "7a24a2f096e1894f6422593730e8b066329dde82f400aa70a0e6ee3da2d2f011"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_028.py",
+      "bytes": 396,
+      "sha256": "69eaf8fa2c990ebbf8694ce2045b48efbf6356a67fdbec56bea6fe2f856cc798"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_029.py",
+      "bytes": 1316,
+      "sha256": "fde9a6d3a855b26f65cb2119a92ebfdfcc6208b1a0144a251c3f153e22acc780"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_031.py",
+      "bytes": 6596,
+      "sha256": "c1a17113c03c0fee99369a0e29d3f638bbfb8842a557a5d2be5b90ecc2287f38"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_032.py",
+      "bytes": 4994,
+      "sha256": "3f4ce22171aa817fd9d507b6dd5af836112347714740df51e04d8756ef866971"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_034.py",
+      "bytes": 190,
+      "sha256": "2db2d4cf2c756fb57f4dbf896af33d4da60198d6b60dd094166eeedd15d99d50"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_037.py",
+      "bytes": 2535,
+      "sha256": "8d64fe8a431ef357ed82a9f1619cd702ca8a5a08b59e6003a5c4a27299936695"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_039.py",
+      "bytes": 3067,
+      "sha256": "8b9f67b095c1013e538912226b11dbc486b8d5429f77b071117323c94a712162"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_040.py",
+      "bytes": 1165,
+      "sha256": "33cc599f22b690cc3072d72cb4de74ac67fcaf2da74d4e9bed4ed2b79b74ae51"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_042.py",
+      "bytes": 57,
+      "sha256": "c290ee6bb2b9c9adccfa9ca0ff60c5bd22e11c49b3bfac93b35b4109a4ca3af2"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_001.py",
+      "bytes": 933,
+      "sha256": "4bfaa51a977f19b127b617e1c3c4e28eb9d98d2cb472dcd62aed9611c2910d8f"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_002.py",
+      "bytes": 2536,
+      "sha256": "6be3c6d07ff4c535571dc6d0f8a1b3784b533c831dcc54bd22096b6297204a94"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_003.py",
+      "bytes": 1614,
+      "sha256": "7c7577c0b8194c3ca488d9d6760e0c257467b38bd9ba6daa7091e377fee78cdc"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_004.py",
+      "bytes": 1607,
+      "sha256": "cdfca03a2bf98f2d6d390e9c2dabe03880574e6777a1e6195da66e3c14c84436"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_005.py",
+      "bytes": 5401,
+      "sha256": "4d799380fe1d06810d30b5080bfd240d4f5136a7e53f7947d4ca88d8ad6c53a2"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_006.py",
+      "bytes": 4111,
+      "sha256": "65cddfb139e3b5fbb443cb2dd5378c524c38abfabb39b7ca59635e1058a858dd"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_007.py",
+      "bytes": 2279,
+      "sha256": "cce85baaf82b51abc501fd0789347553bdb4ee29bfd267b54afe95c6b8d20c05"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_008.py",
+      "bytes": 5894,
+      "sha256": "4deab8bcf5d2da05cca00db818f8a427bcbce7d339582d31e37c4299dd5e5ed3"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_009.py",
+      "bytes": 3333,
+      "sha256": "fd8af9da840414e3cdbdc27de54f13e1110a8cf5ce8f517e0ca6e2c0185fb5d7"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_010.py",
+      "bytes": 2930,
+      "sha256": "df04799d0665af9b8941c88da91d824fe68c6376af57a54304813782a6c73aaf"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_011.py",
+      "bytes": 642,
+      "sha256": "bb4c7dfc836094fe11f8de05a78997892b3fe262316677f11daaec7e79813c3b"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_002.py",
+      "bytes": 328,
+      "sha256": "290af1ef7658c10f162fea4972bf9903b756c636a5ceb98b3c7b7430f4a63ad9"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_004.py",
+      "bytes": 320,
+      "sha256": "345cf0a2aba0b5d66c65faf771350095ad3ba6776ed2fb228655e9aa2e6254bc"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_005.py",
+      "bytes": 410,
+      "sha256": "7c0b25e6711de3bc005c8d3c4cd15b5dc0d42ae1cdeae2336b06ac5d09c441ea"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_026.py",
+      "bytes": 1584,
+      "sha256": "004b5cf22f8055c8dcf5e55e9674da892b13e6c9c7d9c43db630a07f74120785"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_027.py",
+      "bytes": 1376,
+      "sha256": "7a24a2f096e1894f6422593730e8b066329dde82f400aa70a0e6ee3da2d2f011"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_028.py",
+      "bytes": 396,
+      "sha256": "69eaf8fa2c990ebbf8694ce2045b48efbf6356a67fdbec56bea6fe2f856cc798"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_029.py",
+      "bytes": 1316,
+      "sha256": "fde9a6d3a855b26f65cb2119a92ebfdfcc6208b1a0144a251c3f153e22acc780"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_030.py",
+      "bytes": 4062,
+      "sha256": "b2b33043d2a2afa850e10a95520e7178ed92f11578d669be151fd3e80845ae79"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_032.py",
+      "bytes": 190,
+      "sha256": "2db2d4cf2c756fb57f4dbf896af33d4da60198d6b60dd094166eeedd15d99d50"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_035.py",
+      "bytes": 2535,
+      "sha256": "8d64fe8a431ef357ed82a9f1619cd702ca8a5a08b59e6003a5c4a27299936695"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_037.py",
+      "bytes": 2327,
+      "sha256": "8c938b5018f43fedf846ff69fc8d2f5ff0de890c9bf80f92528e2158f028ea3a"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_038.py",
+      "bytes": 1165,
+      "sha256": "33cc599f22b690cc3072d72cb4de74ac67fcaf2da74d4e9bed4ed2b79b74ae51"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_040.py",
+      "bytes": 72,
+      "sha256": "ce7173ec04afc350c5e395f4da9c523a168ef961ec2b59abde40c6c6bab372ff"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_001.py",
+      "bytes": 933,
+      "sha256": "4bfaa51a977f19b127b617e1c3c4e28eb9d98d2cb472dcd62aed9611c2910d8f"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_002.py",
+      "bytes": 368,
+      "sha256": "93e49c8966077d0a19f0a4121e7156e4b2f0acba99174fc43d7b67d294563d6f"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_003.py",
+      "bytes": 5157,
+      "sha256": "08b89e29e63344bf8b885d3873982cc96dd1d586db2f26c98b1c8a01e42ef0e8"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_004.py",
+      "bytes": 1188,
+      "sha256": "d69c44d72d7c9d870e6ce76f00fc9ece24f5d0947812828b13148457b96b63ed"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_005.py",
+      "bytes": 243,
+      "sha256": "1fff7bd521c64cfa1288d341f7e16665ba5eb72020a1c833c1d44b40b9f81b90"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_006.py",
+      "bytes": 7012,
+      "sha256": "efb994bf8d09e1ae63240c3bd73d71fad8cf6bbcd8f479eda868d36ce5d2c201"
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_007.py",
+      "bytes": 3680,
+      "sha256": "0627d5ba716873939ab5ec56a65e87f5be9801259309ac5e2559ca4fa1dd659f"
+    },
+    {
+      "path": "workflows/inhouse/run.py",
+      "bytes": 8516,
+      "sha256": "28aaf2b2593c374201a5e188c0c1ed8efc2dc8d95edea17e7896a006bf69a4f3"
+    },
+    {
+      "path": "workflows/inhouse/test_figures.py",
+      "bytes": 2305,
+      "sha256": "127fc3e7b0773ed3d4157f5226848948a5e0b490de8694cea67762ab85a6763c"
+    },
+    {
+      "path": "workflows/inhouse/data/Contraction Channel Data.xlsx",
+      "bytes": 56923,
+      "sha256": "6dac92b2ad61a2252758ef1047bdbb875f81576cb13490034fb2ecb126af50e8"
+    },
+    {
+      "path": "workflows/inhouse/data/simulation_selected_validation_points.csv",
+      "bytes": 3190,
+      "sha256": "b4808a5f83ff8b29f5887c7628fa0af49205756b21f0d05c85dd11f7912cb785"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_selected_validation_points.pkl",
+      "bytes": 12889,
+      "sha256": "2d4242d418d27d4c99395cf8ea1a07eb8e455b03f7f0c8530efe0f973e1d79e2"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_selected_validation_points_selected_long.csv",
+      "bytes": 2511,
+      "sha256": "c2a6127566e48d0658f2c8d774e9556074b5ccc9ea2c2926cd706bb3c42c047e"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_selected_validation_points_simulation_unique.csv",
+      "bytes": 3360,
+      "sha256": "9f858323a74ae03726a5e3510ef4252b3d5e6529f9cadda5bf2cf3e3bb3c71be"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_three_pf_validation_from_csv.pdf",
+      "bytes": 29977,
+      "sha256": "6e2ed193ab255a2f94a04aa5331ec1e5c2b123a3ec622a670e508ef1583ac842"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_three_pf_validation_from_csv.png",
+      "bytes": 779645,
+      "sha256": "8897776a6f1b1acc4f22cac699a31f0627262ae3ec1ef82075cf5dd42453a1c6"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_three_pf_validation_from_csv_pf.csv",
+      "bytes": 18963,
+      "sha256": "276007cf9743bce72d99a202f23ab591b8b6f7af666aa6356400b0252c0435c2"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_three_pf_validation_from_csv_training.csv",
+      "bytes": 898,
+      "sha256": "fc5cf60f1974b979600067dc09aa6644450b9eef1bee6b6dab29f4158bd3f0d2"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_three_pf_validation_from_csv_validation.csv",
+      "bytes": 4293,
+      "sha256": "d434257118cb7f46ff0b0e6e8ef0f65c003c7d58e5231c1c6940faa20215f4d6"
+    },
+    {
+      "path": "workflows/inhouse/source/plotting.py",
+      "bytes": 10026,
+      "sha256": "3691b677e46edbfd14a66b3570a25661bce3e65f0e069fc1f3747a45e93cca1a"
+    },
+    {
+      "path": "workflows/inhouse/source/training_cells.json",
+      "bytes": 37349,
+      "sha256": "a63fc41c4c3a7a26d4156e678e91ec2364e4b42d077c7c43d38faab7562ecf0e"
+    },
+    {
+      "path": "workflows/public/run.py",
+      "bytes": 11687,
+      "sha256": "08b96eda29e08e305606680d09bb41dfe529cf9c7d87d2b0503e12886d4602b1"
+    },
+    {
+      "path": "workflows/public/data/battery_data_Li.xlsx",
+      "bytes": 11763,
+      "sha256": "940dcecee02eef61f4a7c06bb40145fe2ab0bb2c2919dd43da0584af0d85de38"
+    },
+    {
+      "path": "workflows/public/data/battery_data_Verma_modify.xlsx",
+      "bytes": 15382,
+      "sha256": "c8913be0443a22b34e891fc76c6a6c1120dc03794cc6efdc3d96c24ba87665c9"
+    },
+    {
+      "path": "workflows/public/plots/plot_combined_reliability.py",
+      "bytes": 3239,
+      "sha256": "ba06edeca8ac41149b9d2713b089a7a9f81d39dd2606c2bf31b97871b3292431"
+    },
+    {
+      "path": "workflows/public/plots/plot_li_pf_three_frameworks.py",
+      "bytes": 5463,
+      "sha256": "f8796122e303befa06c9dd814c6095472152a5a9e4d50c6c1ab37cc2daa37878"
+    },
+    {
+      "path": "workflows/public/plots/plot_verma_pf_framework_comparison.py",
+      "bytes": 21496,
+      "sha256": "c43d5206047006dc3a2d84245a8b174e700e0821a7ca573d33ad62d41279d52d"
+    },
+    {
+      "path": "workflows/public/plots/plot_verma_pf_local_support_3x3.py",
+      "bytes": 4238,
+      "sha256": "d97462170dbd46fdc438d2eb9dab09f45b3698283d8cc85097af822e23c16acb"
+    },
+    {
+      "path": "workflows/public/plots/test_verma_pf_framework_comparison.py",
+      "bytes": 2320,
+      "sha256": "447b4e6bf9f1428a27ed393c3aa3f93248b3f23ca7bb66179ed344cfb09787ff"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/calibration_metrics_by_outer_repeat.csv",
+      "bytes": 11945,
+      "sha256": "0bfb939a9e5d5dbacb3665fe0bce43060ea1b70d32527c276bea69e40c1dc6b3"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/cross_fitted_calibration_folds.csv",
+      "bytes": 14147,
+      "sha256": "11a277af109acfbf36897ff534eefb2394c2d676a6050222743a8ba0d2f2583f"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/observation_bootstrap_confidence_intervals.csv",
+      "bytes": 7676,
+      "sha256": "39fb325da99852ea7ef2919ba7dfa0b12873ad2fb23e65d95d17ffb28a943588"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/observation_level_oof_intervals.csv",
+      "bytes": 276325,
+      "sha256": "06a055b8fa5c4d8d6359f39ff3139da31ece32216c774abb9c0ea5b3aa2e979a"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_by_outer_repeat.csv",
+      "bytes": 17650,
+      "sha256": "df20ce9ac56dbb16cd34aafd2d5873ef87e76ddc1f9b858f3262f9ef03bf7ace"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_summary.csv",
+      "bytes": 2306,
+      "sha256": "eeeb09e5fe393e4417871dea1fd78fef5878c35f340e27a33df8e8b070b18563"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/repeat_partition_sensitivity_summary.csv",
+      "bytes": 8115,
+      "sha256": "4aa4a8ffb8da951cbc33f795823ba850ee9ee18c23fed27b7bb1d66b0107b4b6"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/selected_models_by_outer_fold.csv",
+      "bytes": 4725,
+      "sha256": "1b1fd1b73470b07f79eb486928a33780336fa1efd41436c0004c9d6c828eda9c"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/settings.json",
+      "bytes": 1006,
+      "sha256": "44ae99787308ed2cb19ead4bab155eb7b4307ec883059d6c753931295c3f6416"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/predictions/cross_fitted_oof_intervals.npz",
+      "bytes": 124424,
+      "sha256": "76bb83d2794eaf892dd5c6e7fa0e29576073113d50e1a0b0cb4a6fa3fcfe020b"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/predictions/holdout_oof_intervals.npz",
+      "bytes": 79536,
+      "sha256": "66e2cc64809bbb43540d8cbc39289a61fe79f7c8277f6d8046ae9984e6487447"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/predictions/uncalibrated_oof_intervals.npz",
+      "bytes": 124446,
+      "sha256": "9ac3570620c58441e615de118390c3021fb2e0c63157b3d957f70f3a1236a69d"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_diagrams/reliability_TD.pdf",
+      "bytes": 16237,
+      "sha256": "bc60325baaa5171ad2183598dbf19c68f67730061854915855e7289f7f4328c9"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_diagrams/reliability_TD.png",
+      "bytes": 189224,
+      "sha256": "086aaa812b7825bde57206c16604f820d944618e32b4e87c52d27b1ff3dd2663"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_diagrams/reliability_V.pdf",
+      "bytes": 15998,
+      "sha256": "665f67c3e340782a89ab53a08ea7941d1f967e9172c5bd1f94cf308dc8c3c0aa"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_diagrams/reliability_V.png",
+      "bytes": 192843,
+      "sha256": "f6df81493338fc322aa2787b6d3be0dc19d4e890d52147ebdbcde6d1f2c061cd"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/inner_cv_candidate_scores.csv",
+      "bytes": 44512,
+      "sha256": "b0afd2ff04b3375febd4c2a35cbb7914b3e0f41143a9ed4e69262ad68f00fe21"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/metrics_by_outer_repeat.csv",
+      "bytes": 18808,
+      "sha256": "548dcce0b1ce31df408ea6099dab8a3ebdce8fd77a74369a0de52251ff4cf741"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/observation_bootstrap_confidence_intervals.csv",
+      "bytes": 10337,
+      "sha256": "9ea7e47f9daab5c8e48d7c538200c702c87cda51b664dcb17198772b2c42a9a5"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/observation_level_oof_predictions.csv",
+      "bytes": 175940,
+      "sha256": "cefb0722c1f2d4b3ba33f154c77b42d0086de05634703f6ec408743ea2fdbd82"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/repeat_partition_sensitivity_summary.csv",
+      "bytes": 10044,
+      "sha256": "68e579e93f0babf48b906d281ce9574bc2f921116fed944c5bc0d929eb7b0bc9"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/selected_models_by_outer_fold.csv",
+      "bytes": 8822,
+      "sha256": "1016d614267cb0a21c363a6e7298e103433c685a6116c9bfd752d36479fe6206"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/settings.json",
+      "bytes": 1045,
+      "sha256": "cc24bc230e14350632775a5e4067e67bbc8d9d45fb21e506b1fa38c9f56a52e8"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/predictions/model_selection_oof_cube.npz",
+      "bytes": 17309,
+      "sha256": "987dc24ad0fdd7fa081169fed06f50285e6f3c8472e8270f25469e99fb207f41"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/predictions/model_selection_plus_bagging_oof_cube.npz",
+      "bytes": 17264,
+      "sha256": "51c282c2f3b826d36df41bd647e37f7120e6865cd25718d1e3a2c268256108b5"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/predictions/single_gp_oof_cube.npz",
+      "bytes": 17325,
+      "sha256": "b41bca127d4db33c3eaec7999f22bb481ad862b9f7dc967b87727381c4121c0f"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/calibration_metrics_by_outer_repeat.csv",
+      "bytes": 15887,
+      "sha256": "babcf52c0eaf7a14262bd2afcf9fab475dcc38e4899886ebbdfa8b1a6b1075a5"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/cross_fitted_calibration_folds.csv",
+      "bytes": 15517,
+      "sha256": "5be418dc2087a0defa833c1dfe13c4899dd5312e63959ee0db53ebb0242a190e"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/observation_bootstrap_confidence_intervals.csv",
+      "bytes": 10271,
+      "sha256": "82bab884f778b8d74ce93a628489d2cd5a8db4bf337e51a580603acb3a34b6c1"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/observation_level_oof_intervals.csv",
+      "bytes": 786136,
+      "sha256": "cd18fec1b6a64be70393a3e211e4c86cc28b914ed8cb35ff9f8b384c79dc8e2d"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_by_outer_repeat.csv",
+      "bytes": 27215,
+      "sha256": "14f28bb8ed2dfc4acf19e8747c38ae8f0c31c04de2d875c8df81b09d89795ac0"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_summary.csv",
+      "bytes": 3206,
+      "sha256": "94105d7ae3fe319c29d5501a3e528469d129f230680a069ab2ecc7c972111157"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/repeat_partition_sensitivity_summary.csv",
+      "bytes": 10745,
+      "sha256": "aa536f10e42dccbb43fd2377e3caab11e577db59df66b79a47e258f818c08d25"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/selected_models_by_outer_fold.csv",
+      "bytes": 4902,
+      "sha256": "454aed0d85cea5b15b293eef573326121a9b2e0343a02b2432693c1f2f49c850"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/settings.json",
+      "bytes": 1008,
+      "sha256": "ae296a8d05fab8bd372e424f15f41da19d8bc24801fbed297840264977b91a13"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/predictions/cross_fitted_oof_intervals.npz",
+      "bytes": 366995,
+      "sha256": "08900d54261529e7754139ca60b25ca8f274295d1c7b003c1df740f6b8edf9e9"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/predictions/holdout_oof_intervals.npz",
+      "bytes": 322231,
+      "sha256": "ba3d54255f9906ea598a963a7d60407b2100bfcb67fa6f005b2ab76360fa3e37"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/predictions/uncalibrated_oof_intervals.npz",
+      "bytes": 367146,
+      "sha256": "5649c56e83efaa3d85b919cd6652f58ca1e6128200b1ba8f9b8a974cd688b872"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_P.pdf",
+      "bytes": 16104,
+      "sha256": "e1a04d3e548d79e5f8b978ffacae4cdb76e41da44134ff250274cb135dd4e970"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_P.png",
+      "bytes": 191510,
+      "sha256": "eaf2ac587f59b736d89d95d4833959915e085d1c8cb7af1af77bf542963d23c9"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_T.pdf",
+      "bytes": 16011,
+      "sha256": "474ea673a476f45243a8081b73e0c9d5fc5842c74a8a8c87b0c72fafc0837451"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_T.png",
+      "bytes": 195282,
+      "sha256": "131c775fbf08f820ad2738a59e067d0fa93b5582030f0076ceb19073661e3fdc"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_TD.pdf",
+      "bytes": 16275,
+      "sha256": "f09490a6227dc83883514b67c954c7d329ddd05b7b1cd8b7258c8105a96330d8"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_TD.png",
+      "bytes": 196242,
+      "sha256": "070d003154f8d6824f3ea612a4feaf17d221fa7df77a5857d14ac99950e57fad"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_combined_abc.pdf",
+      "bytes": 16276,
+      "sha256": "63861fd00ff3406b5503fa96d0c0acc3b57e8632d266370b7353cba63e8a88d4"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_combined_abc.png",
+      "bytes": 492336,
+      "sha256": "f853a59206763176e7c4bd5afee87fb8edebc2edc519bbe7683e2a32fae8d31e"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/inner_cv_candidate_scores.csv",
+      "bytes": 57721,
+      "sha256": "63bfea0f3024103eb08d65c599b3a7b57ada1934bd6915ff3a602c63e59c5206"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/metrics_by_outer_repeat.csv",
+      "bytes": 25022,
+      "sha256": "2f0760752ab019b9f301dc8126aa6dea33b15b609c9f0651e982bb823906452b"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/observation_bootstrap_confidence_intervals.csv",
+      "bytes": 13492,
+      "sha256": "391fcfe2cb0214c359cbe01a98ea13ebfceeab127a9ea94f72867f20fde064b2"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/observation_level_oof_predictions.csv",
+      "bytes": 472615,
+      "sha256": "bc6da0e7409103a266e01ed97b6fa50cf6f296a2b5abe2fed7cf2db0cf5a0231"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/repeat_partition_sensitivity_summary.csv",
+      "bytes": 13169,
+      "sha256": "d79e75515833bd6f5765fbce38d6b4ab54a35de2d5d7a382f488beb92ff02b61"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/selected_models_by_outer_fold.csv",
+      "bytes": 9742,
+      "sha256": "cf3457fca13dd256d54a45e8925e07109255e31dd3eaa746fed70bb3cb743c22"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/settings.json",
+      "bytes": 1047,
+      "sha256": "b854095616548bcc352c41f260e4880b5ce9f12ac62f10481f4fbb0375f25395"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/predictions/model_selection_oof_cube.npz",
+      "bytes": 48394,
+      "sha256": "debc6e2177901482772316fa38f480f0f38383b8ebbe1123b704463b68d781ed"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/predictions/model_selection_plus_bagging_oof_cube.npz",
+      "bytes": 48323,
+      "sha256": "7e037804697ac2db908c1cac30cc2a5931eab1c716b123c0e2807ff6ef90c0d9"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/predictions/single_gp_oof_cube.npz",
+      "bytes": 48384,
+      "sha256": "68c8cfdcaa090243a7b5773001c2775cb63aa8247d5868cbdb9049b4a3f0378b"
+    },
+    {
+      "path": "workflows/public/reference/pareto/li_pf_store.pkl",
+      "bytes": 407963,
+      "sha256": "420bd7693909a47ddf830862766aa04fdfa75e442867ab9b5745f5feb6d21394"
+    },
+    {
+      "path": "workflows/public/reference/pareto/li_pf_three_frameworks_with_zoom.pdf",
+      "bytes": 234647,
+      "sha256": "9fb8258def5d45b8c8f9655ab0f70123950ee74236b450641c92bbbc2dc013c3"
+    },
+    {
+      "path": "workflows/public/reference/pareto/li_pf_three_frameworks_with_zoom.png",
+      "bytes": 1304281,
+      "sha256": "73e976843686b3f6a52bb3144e9137319eb6dda5bf19c6efe3e9691292aeb14e"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_all_runs_supplementary.pdf",
+      "bytes": 398857,
+      "sha256": "c551091fecb2db874391bb0f648d4796b88ee125e6a01f0e4781b1294f571596"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_all_runs_supplementary.png",
+      "bytes": 2152545,
+      "sha256": "24d0c7edbebe68de412e6ad21e37afc1694243d7a17f30601a0139d8f45834c1"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_README.md",
+      "bytes": 6414,
+      "sha256": "f516d427e6a69c908a093d41f8729ebaaff8e1d222da16f409d1b0c48a8b701b"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_comparison.pdf",
+      "bytes": 416507,
+      "sha256": "11228905143178f72a61e3abd8396e51e447e912724e5a8ccf1413a1e0518e71"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_comparison.png",
+      "bytes": 1651756,
+      "sha256": "61f76d37a5d8cca5d7385c13a764dc830b0b9ebf7b3a8a891420bf5a55412f45"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_comparison_caption.tex",
+      "bytes": 1432,
+      "sha256": "8011dbf2da2276491e19181a524626ed19635a4e5da7c4375d9ab45e38797502"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_provenance.json",
+      "bytes": 4124,
+      "sha256": "d8eafef40f50e3118f7b17787e2a8b8e1c8e48a79e6fcd220e52cadcc8b25dac"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_summary.csv",
+      "bytes": 604,
+      "sha256": "c80a59c9c359a63535180d6f9255865771ffb73e0b076654da4983c0fb37f13e"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_local_support_3x3.pdf",
+      "bytes": 419473,
+      "sha256": "d33e25bfbd0521f57b0f86235ad10bf5c68a482d9a9a3ed2aef2ee347719aea1"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_pairwise_hausdorff.csv",
+      "bytes": 4535,
+      "sha256": "9760ee95b06bcc8f8d99baf8da72af59be2d8cbeba8f4b7a28e262ea7215ac5d"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_point_support_metrics.csv",
+      "bytes": 680797,
+      "sha256": "724820e3012c02a115d78129a197b7605755205528b58252b9f675faef420cec"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_run_summary.csv",
+      "bytes": 2517,
+      "sha256": "df690d05e860716f18979d905e961fa908495ae0a7dd9fda4f3dec1a36402edd"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_store.pkl",
+      "bytes": 432303,
+      "sha256": "e1335cb895c5e19fa54f3e1ac2cf5ff4b1067cdef2b9cbb3a858ca58f1f7c08d"
+    },
+    {
+      "path": "workflows/public/source/li_cell_02.py",
+      "bytes": 278,
+      "sha256": "b36f97fa8705043a43e5ca1ac77543557529eb7590b89c94044210a09d6dd51b"
+    },
+    {
+      "path": "workflows/public/source/li_cell_04.py",
+      "bytes": 301,
+      "sha256": "115f7cb9413d7921fdd88048bd72e10d9aa547bf2e90ee11d7f7437dffe4243d"
+    },
+    {
+      "path": "workflows/public/source/li_cell_22.py",
+      "bytes": 2553,
+      "sha256": "8e4c8c579f1a0875c57c090a4a0ed786c09e8b1ffd1b9705ff27fc9e6e75b7a1"
+    },
+    {
+      "path": "workflows/public/source/li_cell_29.py",
+      "bytes": 7698,
+      "sha256": "e82a9ff8e0803862431c0a05580f6641ea3e0e30a3c5590e5892bcb3246f16e7"
+    },
+    {
+      "path": "workflows/public/source/li_cell_31.py",
+      "bytes": 963,
+      "sha256": "35753a153975f3c324f3af221253616bfead312e9aa1ab8f534716281ca753d2"
+    },
+    {
+      "path": "workflows/public/source/li_cell_43.py",
+      "bytes": 1339,
+      "sha256": "48396305f91c0ba685235b143e8c0614b5a9897cb14d1d2d636fa85ffdbc8cfd"
+    },
+    {
+      "path": "workflows/public/source/li_cell_44.py",
+      "bytes": 361,
+      "sha256": "a2f971b5709bca5197b5e7cd872acad0c4e42845460fef6e26d93c6ea47aa3b7"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_02.py",
+      "bytes": 1261,
+      "sha256": "477754fec48e3db5289ec864feaf629467703a1f37bdc962c0f2e237c80f9f03"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_05.py",
+      "bytes": 1604,
+      "sha256": "fa9d0dd4091f1f5a983bdb1302294e587d81fad1300cf19ff3085946247fff1d"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_08.py",
+      "bytes": 32515,
+      "sha256": "be389e982cc671a8bd317397cf0d01a11ff83b31e524214b1a7aec7aecb01345"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_10.py",
+      "bytes": 76794,
+      "sha256": "070b9c76686bddae92a447d14fce26721979678fb3b5ced51bfb0fdcc3837df5"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_13.py",
+      "bytes": 301,
+      "sha256": "115f7cb9413d7921fdd88048bd72e10d9aa547bf2e90ee11d7f7437dffe4243d"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_14.py",
+      "bytes": 1047,
+      "sha256": "8453a0acdeef7d1b130f2a4aaaa5d6b5a6ff5e0ebd95b19826e99f8d1c75d92c"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_16.py",
+      "bytes": 311,
+      "sha256": "414f8dbaa8ea23e1bfd571b74b3d4783e85cfc6ebb52c44507cfb2b0ac01c322"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_17.py",
+      "bytes": 1050,
+      "sha256": "8aaf8454b3fefb15d150284bc7a33b052f991cc4808e5c614328a1da013a058e"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_20.py",
+      "bytes": 98729,
+      "sha256": "cefdccdd228243b7e06472488721995236fb5688a3e46e376e4874a21e3e9c95"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_22.py",
+      "bytes": 301,
+      "sha256": "115f7cb9413d7921fdd88048bd72e10d9aa547bf2e90ee11d7f7437dffe4243d"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_23.py",
+      "bytes": 1386,
+      "sha256": "12e62078956fe364de9672f77f6ce45ed749b52dc58d2a603a1a043ee23d6efd"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_25.py",
+      "bytes": 311,
+      "sha256": "414f8dbaa8ea23e1bfd571b74b3d4783e85cfc6ebb52c44507cfb2b0ac01c322"
+    },
+    {
+      "path": "workflows/public/source/nested_cell_26.py",
+      "bytes": 1389,
+      "sha256": "593c0fa53a04d236603cc7b8c07bb670b3829935eb58b93868c41b2a70efae62"
+    },
+    {
+      "path": "workflows/public/source/verma_cell_02.py",
+      "bytes": 302,
+      "sha256": "ff5bd7361439fdd46fbbe7f0302c1f077a55e1719a37a89c1224b9c726c3d5b5"
+    },
+    {
+      "path": "workflows/public/source/verma_cell_04.py",
+      "bytes": 312,
+      "sha256": "c3950772e271efb4dc4112a45ed37fbad6359d11136e2802f1f493e201ede654"
+    },
+    {
+      "path": "workflows/public/source/verma_cell_22.py",
+      "bytes": 2553,
+      "sha256": "8e4c8c579f1a0875c57c090a4a0ed786c09e8b1ffd1b9705ff27fc9e6e75b7a1"
+    },
+    {
+      "path": "workflows/public/source/verma_cell_30.py",
+      "bytes": 8949,
+      "sha256": "3bed028f53f495ccdbf3603d290804f74481b455c55e833883a0520e9261a100"
+    },
+    {
+      "path": "workflows/public/source/verma_cell_31.py",
+      "bytes": 5529,
+      "sha256": "fa9edecd4b6a69369042bff444738ea7af1cb7106aaca12f42351fbaababcb9e"
+    },
+    {
+      "path": "workflows/public/source/verma_cell_32.py",
+      "bytes": 965,
+      "sha256": "bad153b82b312d780155751f9a2e956e7be1f5f8863c44706da3db79b54bd04c"
+    },
+    {
+      "path": "workflows/public/source/verma_cell_48.py",
+      "bytes": 1339,
+      "sha256": "48396305f91c0ba685235b143e8c0614b5a9897cb14d1d2d636fa85ffdbc8cfd"
+    },
+    {
+      "path": "workflows/public/source/verma_cell_49.py",
+      "bytes": 374,
+      "sha256": "777b1a7aa4c0ac32efeff8d784c410bd1f71729c43a65229713d9514d74be425"
+    },
+    {
+      "path": "workflows/public/source/verma_plot_source.ipynb",
+      "bytes": 7890,
+      "sha256": "d3cdd23d05ef65bbdbdf6e86033e2834a5bec521d17ef6e6adaf1b02f9852a34"
+    }
+  ]
+}

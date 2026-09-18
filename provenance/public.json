@@ -1,0 +1,855 @@
+{
+  "workflow": "public",
+  "selection": "Latest nested repeated validation and final public Pareto snapshots are separate historical pipelines.",
+  "files": [
+    {
+      "path": "workflows/public/data/battery_data_Li.xlsx",
+      "original_path": "battery_data_Li.xlsx",
+      "sha256": "940dcecee02eef61f4a7c06bb40145fe2ab0bb2c2919dd43da0584af0d85de38",
+      "role": "raw dataset"
+    },
+    {
+      "path": "workflows/public/data/battery_data_Verma_modify.xlsx",
+      "original_path": "battery_data_Verma_modify.xlsx",
+      "sha256": "c8913be0443a22b34e891fc76c6a6c1120dc03794cc6efdc3d96c24ba87665c9",
+      "role": "raw dataset"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/inner_cv_candidate_scores.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/surrogate_ablation/inner_cv_candidate_scores.csv",
+      "sha256": "b0afd2ff04b3375febd4c2a35cbb7914b3e0f41143a9ed4e69262ad68f00fe21",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/metrics_by_outer_repeat.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/surrogate_ablation/metrics_by_outer_repeat.csv",
+      "sha256": "548dcce0b1ce31df408ea6099dab8a3ebdce8fd77a74369a0de52251ff4cf741",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/observation_bootstrap_confidence_intervals.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/surrogate_ablation/observation_bootstrap_confidence_intervals.csv",
+      "sha256": "9ea7e47f9daab5c8e48d7c538200c702c87cda51b664dcb17198772b2c42a9a5",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/observation_level_oof_predictions.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/surrogate_ablation/observation_level_oof_predictions.csv",
+      "sha256": "cefb0722c1f2d4b3ba33f154c77b42d0086de05634703f6ec408743ea2fdbd82",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/repeat_partition_sensitivity_summary.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/surrogate_ablation/repeat_partition_sensitivity_summary.csv",
+      "sha256": "68e579e93f0babf48b906d281ce9574bc2f921116fed944c5bc0d929eb7b0bc9",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/selected_models_by_outer_fold.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/surrogate_ablation/selected_models_by_outer_fold.csv",
+      "sha256": "1016d614267cb0a21c363a6e7298e103433c685a6116c9bfd752d36479fe6206",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/settings.json",
+      "original_path": "revision/results/li_nested_repeated_oof/surrogate_ablation/settings.json",
+      "sha256": "cc24bc230e14350632775a5e4067e67bbc8d9d45fb21e506b1fa38c9f56a52e8",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/predictions/model_selection_oof_cube.npz",
+      "original_path": "revision/results/li_nested_repeated_oof/surrogate_ablation/predictions/model_selection_oof_cube.npz",
+      "sha256": "987dc24ad0fdd7fa081169fed06f50285e6f3c8472e8270f25469e99fb207f41",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/predictions/model_selection_plus_bagging_oof_cube.npz",
+      "original_path": "revision/results/li_nested_repeated_oof/surrogate_ablation/predictions/model_selection_plus_bagging_oof_cube.npz",
+      "sha256": "51c282c2f3b826d36df41bd647e37f7120e6865cd25718d1e3a2c268256108b5",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/surrogate_ablation/predictions/single_gp_oof_cube.npz",
+      "original_path": "revision/results/li_nested_repeated_oof/surrogate_ablation/predictions/single_gp_oof_cube.npz",
+      "sha256": "b41bca127d4db33c3eaec7999f22bb481ad862b9f7dc967b87727381c4121c0f",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/calibration_metrics_by_outer_repeat.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/calibration_metrics_by_outer_repeat.csv",
+      "sha256": "0bfb939a9e5d5dbacb3665fe0bce43060ea1b70d32527c276bea69e40c1dc6b3",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/cross_fitted_calibration_folds.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/cross_fitted_calibration_folds.csv",
+      "sha256": "11a277af109acfbf36897ff534eefb2394c2d676a6050222743a8ba0d2f2583f",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/observation_bootstrap_confidence_intervals.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/observation_bootstrap_confidence_intervals.csv",
+      "sha256": "39fb325da99852ea7ef2919ba7dfa0b12873ad2fb23e65d95d17ffb28a943588",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/observation_level_oof_intervals.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/observation_level_oof_intervals.csv",
+      "sha256": "06a055b8fa5c4d8d6359f39ff3139da31ece32216c774abb9c0ea5b3aa2e979a",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_by_outer_repeat.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/reliability_by_outer_repeat.csv",
+      "sha256": "df20ce9ac56dbb16cd34aafd2d5873ef87e76ddc1f9b858f3262f9ef03bf7ace",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_summary.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/reliability_summary.csv",
+      "sha256": "eeeb09e5fe393e4417871dea1fd78fef5878c35f340e27a33df8e8b070b18563",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/repeat_partition_sensitivity_summary.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/repeat_partition_sensitivity_summary.csv",
+      "sha256": "4aa4a8ffb8da951cbc33f795823ba850ee9ee18c23fed27b7bb1d66b0107b4b6",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/selected_models_by_outer_fold.csv",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/selected_models_by_outer_fold.csv",
+      "sha256": "1b1fd1b73470b07f79eb486928a33780336fa1efd41436c0004c9d6c828eda9c",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/settings.json",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/settings.json",
+      "sha256": "44ae99787308ed2cb19ead4bab155eb7b4307ec883059d6c753931295c3f6416",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/predictions/cross_fitted_oof_intervals.npz",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/predictions/cross_fitted_oof_intervals.npz",
+      "sha256": "76bb83d2794eaf892dd5c6e7fa0e29576073113d50e1a0b0cb4a6fa3fcfe020b",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/predictions/holdout_oof_intervals.npz",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/predictions/holdout_oof_intervals.npz",
+      "sha256": "66e2cc64809bbb43540d8cbc39289a61fe79f7c8277f6d8046ae9984e6487447",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/predictions/uncalibrated_oof_intervals.npz",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/predictions/uncalibrated_oof_intervals.npz",
+      "sha256": "9ac3570620c58441e615de118390c3021fb2e0c63157b3d957f70f3a1236a69d",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_diagrams/reliability_TD.pdf",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/reliability_diagrams/reliability_TD.pdf",
+      "sha256": "bc60325baaa5171ad2183598dbf19c68f67730061854915855e7289f7f4328c9",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_diagrams/reliability_TD.png",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/reliability_diagrams/reliability_TD.png",
+      "sha256": "086aaa812b7825bde57206c16604f820d944618e32b4e87c52d27b1ff3dd2663",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_diagrams/reliability_V.pdf",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/reliability_diagrams/reliability_V.pdf",
+      "sha256": "665f67c3e340782a89ab53a08ea7941d1f967e9172c5bd1f94cf308dc8c3c0aa",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/li/calibration/reliability_diagrams/reliability_V.png",
+      "original_path": "revision/results/li_nested_repeated_oof/calibration/reliability_diagrams/reliability_V.png",
+      "sha256": "f6df81493338fc322aa2787b6d3be0dc19d4e890d52147ebdbcde6d1f2c061cd",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/inner_cv_candidate_scores.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/surrogate_ablation/inner_cv_candidate_scores.csv",
+      "sha256": "63bfea0f3024103eb08d65c599b3a7b57ada1934bd6915ff3a602c63e59c5206",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/metrics_by_outer_repeat.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/surrogate_ablation/metrics_by_outer_repeat.csv",
+      "sha256": "2f0760752ab019b9f301dc8126aa6dea33b15b609c9f0651e982bb823906452b",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/observation_bootstrap_confidence_intervals.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/surrogate_ablation/observation_bootstrap_confidence_intervals.csv",
+      "sha256": "391fcfe2cb0214c359cbe01a98ea13ebfceeab127a9ea94f72867f20fde064b2",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/observation_level_oof_predictions.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/surrogate_ablation/observation_level_oof_predictions.csv",
+      "sha256": "bc6da0e7409103a266e01ed97b6fa50cf6f296a2b5abe2fed7cf2db0cf5a0231",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/repeat_partition_sensitivity_summary.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/surrogate_ablation/repeat_partition_sensitivity_summary.csv",
+      "sha256": "d79e75515833bd6f5765fbce38d6b4ab54a35de2d5d7a382f488beb92ff02b61",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/selected_models_by_outer_fold.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/surrogate_ablation/selected_models_by_outer_fold.csv",
+      "sha256": "cf3457fca13dd256d54a45e8925e07109255e31dd3eaa746fed70bb3cb743c22",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/settings.json",
+      "original_path": "revision/results/verma_nested_repeated_oof/surrogate_ablation/settings.json",
+      "sha256": "b854095616548bcc352c41f260e4880b5ce9f12ac62f10481f4fbb0375f25395",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/predictions/model_selection_oof_cube.npz",
+      "original_path": "revision/results/verma_nested_repeated_oof/surrogate_ablation/predictions/model_selection_oof_cube.npz",
+      "sha256": "debc6e2177901482772316fa38f480f0f38383b8ebbe1123b704463b68d781ed",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/predictions/model_selection_plus_bagging_oof_cube.npz",
+      "original_path": "revision/results/verma_nested_repeated_oof/surrogate_ablation/predictions/model_selection_plus_bagging_oof_cube.npz",
+      "sha256": "7e037804697ac2db908c1cac30cc2a5931eab1c716b123c0e2807ff6ef90c0d9",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/surrogate_ablation/predictions/single_gp_oof_cube.npz",
+      "original_path": "revision/results/verma_nested_repeated_oof/surrogate_ablation/predictions/single_gp_oof_cube.npz",
+      "sha256": "68c8cfdcaa090243a7b5773001c2775cb63aa8247d5868cbdb9049b4a3f0378b",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/calibration_metrics_by_outer_repeat.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/calibration_metrics_by_outer_repeat.csv",
+      "sha256": "babcf52c0eaf7a14262bd2afcf9fab475dcc38e4899886ebbdfa8b1a6b1075a5",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/cross_fitted_calibration_folds.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/cross_fitted_calibration_folds.csv",
+      "sha256": "5be418dc2087a0defa833c1dfe13c4899dd5312e63959ee0db53ebb0242a190e",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/observation_bootstrap_confidence_intervals.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/observation_bootstrap_confidence_intervals.csv",
+      "sha256": "82bab884f778b8d74ce93a628489d2cd5a8db4bf337e51a580603acb3a34b6c1",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/observation_level_oof_intervals.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/observation_level_oof_intervals.csv",
+      "sha256": "cd18fec1b6a64be70393a3e211e4c86cc28b914ed8cb35ff9f8b384c79dc8e2d",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_by_outer_repeat.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/reliability_by_outer_repeat.csv",
+      "sha256": "14f28bb8ed2dfc4acf19e8747c38ae8f0c31c04de2d875c8df81b09d89795ac0",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_summary.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/reliability_summary.csv",
+      "sha256": "94105d7ae3fe319c29d5501a3e528469d129f230680a069ab2ecc7c972111157",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/repeat_partition_sensitivity_summary.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/repeat_partition_sensitivity_summary.csv",
+      "sha256": "aa536f10e42dccbb43fd2377e3caab11e577db59df66b79a47e258f818c08d25",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/selected_models_by_outer_fold.csv",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/selected_models_by_outer_fold.csv",
+      "sha256": "454aed0d85cea5b15b293eef573326121a9b2e0343a02b2432693c1f2f49c850",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/settings.json",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/settings.json",
+      "sha256": "ae296a8d05fab8bd372e424f15f41da19d8bc24801fbed297840264977b91a13",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/predictions/cross_fitted_oof_intervals.npz",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/predictions/cross_fitted_oof_intervals.npz",
+      "sha256": "08900d54261529e7754139ca60b25ca8f274295d1c7b003c1df740f6b8edf9e9",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/predictions/holdout_oof_intervals.npz",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/predictions/holdout_oof_intervals.npz",
+      "sha256": "ba3d54255f9906ea598a963a7d60407b2100bfcb67fa6f005b2ab76360fa3e37",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/predictions/uncalibrated_oof_intervals.npz",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/predictions/uncalibrated_oof_intervals.npz",
+      "sha256": "5649c56e83efaa3d85b919cd6652f58ca1e6128200b1ba8f9b8a974cd688b872",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_combined_abc.pdf",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/reliability_diagrams/reliability_combined_abc.pdf",
+      "sha256": "63861fd00ff3406b5503fa96d0c0acc3b57e8632d266370b7353cba63e8a88d4",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_combined_abc.png",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/reliability_diagrams/reliability_combined_abc.png",
+      "sha256": "f853a59206763176e7c4bd5afee87fb8edebc2edc519bbe7683e2a32fae8d31e",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_P.pdf",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/reliability_diagrams/reliability_P.pdf",
+      "sha256": "e1a04d3e548d79e5f8b978ffacae4cdb76e41da44134ff250274cb135dd4e970",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_P.png",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/reliability_diagrams/reliability_P.png",
+      "sha256": "eaf2ac587f59b736d89d95d4833959915e085d1c8cb7af1af77bf542963d23c9",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_T.pdf",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/reliability_diagrams/reliability_T.pdf",
+      "sha256": "474ea673a476f45243a8081b73e0c9d5fc5842c74a8a8c87b0c72fafc0837451",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_T.png",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/reliability_diagrams/reliability_T.png",
+      "sha256": "131c775fbf08f820ad2738a59e067d0fa93b5582030f0076ceb19073661e3fdc",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_TD.pdf",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/reliability_diagrams/reliability_TD.pdf",
+      "sha256": "f09490a6227dc83883514b67c954c7d329ddd05b7b1cd8b7258c8105a96330d8",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/nested/verma/calibration/reliability_diagrams/reliability_TD.png",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/reliability_diagrams/reliability_TD.png",
+      "sha256": "070d003154f8d6824f3ea612a4feaf17d221fa7df77a5857d14ac99950e57fad",
+      "role": "archived nested validation result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/li_pf_store.pkl",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/li_pf_store.pkl",
+      "sha256": "420bd7693909a47ddf830862766aa04fdfa75e442867ab9b5745f5feb6d21394",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/li_pf_three_frameworks_with_zoom.pdf",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/li_pf_three_frameworks_with_zoom.pdf",
+      "sha256": "9fb8258def5d45b8c8f9655ab0f70123950ee74236b450641c92bbbc2dc013c3",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/li_pf_three_frameworks_with_zoom.png",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/li_pf_three_frameworks_with_zoom.png",
+      "sha256": "73e976843686b3f6a52bb3144e9137319eb6dda5bf19c6efe3e9691292aeb14e",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_all_runs_supplementary.pdf",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_all_runs_supplementary.pdf",
+      "sha256": "c551091fecb2db874391bb0f648d4796b88ee125e6a01f0e4781b1294f571596",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_all_runs_supplementary.png",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_all_runs_supplementary.png",
+      "sha256": "24d0c7edbebe68de412e6ad21e37afc1694243d7a17f30601a0139d8f45834c1",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_comparison.pdf",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_framework_comparison.pdf",
+      "sha256": "11228905143178f72a61e3abd8396e51e447e912724e5a8ccf1413a1e0518e71",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_comparison.png",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_framework_comparison.png",
+      "sha256": "61f76d37a5d8cca5d7385c13a764dc830b0b9ebf7b3a8a891420bf5a55412f45",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_comparison_caption.tex",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_framework_comparison_caption.tex",
+      "sha256": "8011dbf2da2276491e19181a524626ed19635a4e5da7c4375d9ab45e38797502",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_provenance.json",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_framework_provenance.json",
+      "sha256": "d8eafef40f50e3118f7b17787e2a8b8e1c8e48a79e6fcd220e52cadcc8b25dac",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_README.md",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_framework_README.md",
+      "sha256": "f516d427e6a69c908a093d41f8729ebaaff8e1d222da16f409d1b0c48a8b701b",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_framework_summary.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_framework_summary.csv",
+      "sha256": "c80a59c9c359a63535180d6f9255865771ffb73e0b076654da4983c0fb37f13e",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_local_support_3x3.pdf",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_local_support_3x3.pdf",
+      "sha256": "d33e25bfbd0521f57b0f86235ad10bf5c68a482d9a9a3ed2aef2ee347719aea1",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_pairwise_hausdorff.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_pairwise_hausdorff.csv",
+      "sha256": "9760ee95b06bcc8f8d99baf8da72af59be2d8cbeba8f4b7a28e262ea7215ac5d",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_point_support_metrics.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_point_support_metrics.csv",
+      "sha256": "724820e3012c02a115d78129a197b7605755205528b58252b9f675faef420cec",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_run_summary.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_run_summary.csv",
+      "sha256": "df690d05e860716f18979d905e961fa908495ae0a7dd9fda4f3dec1a36402edd",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/reference/pareto/verma_pf_store.pkl",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/verma_pf_store.pkl",
+      "sha256": "e1335cb895c5e19fa54f3e1ac2cf5ff4b1067cdef2b9cbb3a858ca58f1f7c08d",
+      "role": "archived final Pareto result"
+    },
+    {
+      "path": "workflows/public/plots/plot_li_pf_three_frameworks.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/plot_li_pf_three_frameworks.py",
+      "sha256": "f8796122e303befa06c9dd814c6095472152a5a9e4d50c6c1ab37cc2daa37878",
+      "role": "original final Pareto plotting source"
+    },
+    {
+      "path": "workflows/public/plots/plot_verma_pf_framework_comparison.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/plot_verma_pf_framework_comparison.py",
+      "sha256": "c43d5206047006dc3a2d84245a8b174e700e0821a7ca573d33ad62d41279d52d",
+      "role": "original final Pareto plotting source"
+    },
+    {
+      "path": "workflows/public/plots/plot_verma_pf_local_support_3x3.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/plot_verma_pf_local_support_3x3.py",
+      "sha256": "b60c6970ef0d290b3bc5a9f234ac1403b63b8c78fc8c18dbd01bb699d69ff3cc",
+      "role": "original final Pareto plotting source"
+    },
+    {
+      "path": "workflows/public/plots/test_verma_pf_framework_comparison.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/test_verma_pf_framework_comparison.py",
+      "sha256": "447b4e6bf9f1428a27ed393c3aa3f93248b3f23ca7bb66179ed344cfb09787ff",
+      "role": "original final Pareto plotting source"
+    },
+    {
+      "path": "workflows/public/plots/plot_combined_reliability.py",
+      "original_path": "revision/results/verma_nested_repeated_oof/calibration/reliability_diagrams/plot_combined_reliability.py",
+      "sha256": "ba06edeca8ac41149b9d2713b089a7a9f81d39dd2606c2bf31b97871b3292431",
+      "role": "original final Verma reliability plotting source"
+    }
+  ],
+  "extractions": [
+    {
+      "path": "workflows/public/source/nested_cell_02.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        2
+      ],
+      "cell_source_sha256": "477754fec48e3db5289ec864feaf629467703a1f37bdc962c0f2e237c80f9f03",
+      "sha256": "477754fec48e3db5289ec864feaf629467703a1f37bdc962c0f2e237c80f9f03",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_05.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        5
+      ],
+      "cell_source_sha256": "fa9d0dd4091f1f5a983bdb1302294e587d81fad1300cf19ff3085946247fff1d",
+      "sha256": "fa9d0dd4091f1f5a983bdb1302294e587d81fad1300cf19ff3085946247fff1d",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_08.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        8
+      ],
+      "cell_source_sha256": "be389e982cc671a8bd317397cf0d01a11ff83b31e524214b1a7aec7aecb01345",
+      "sha256": "be389e982cc671a8bd317397cf0d01a11ff83b31e524214b1a7aec7aecb01345",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_10.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        10
+      ],
+      "cell_source_sha256": "070b9c76686bddae92a447d14fce26721979678fb3b5ced51bfb0fdcc3837df5",
+      "sha256": "070b9c76686bddae92a447d14fce26721979678fb3b5ced51bfb0fdcc3837df5",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_13.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        13
+      ],
+      "cell_source_sha256": "115f7cb9413d7921fdd88048bd72e10d9aa547bf2e90ee11d7f7437dffe4243d",
+      "sha256": "115f7cb9413d7921fdd88048bd72e10d9aa547bf2e90ee11d7f7437dffe4243d",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_14.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        14
+      ],
+      "cell_source_sha256": "8453a0acdeef7d1b130f2a4aaaa5d6b5a6ff5e0ebd95b19826e99f8d1c75d92c",
+      "sha256": "8453a0acdeef7d1b130f2a4aaaa5d6b5a6ff5e0ebd95b19826e99f8d1c75d92c",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_16.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        16
+      ],
+      "cell_source_sha256": "414f8dbaa8ea23e1bfd571b74b3d4783e85cfc6ebb52c44507cfb2b0ac01c322",
+      "sha256": "414f8dbaa8ea23e1bfd571b74b3d4783e85cfc6ebb52c44507cfb2b0ac01c322",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_17.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        17
+      ],
+      "cell_source_sha256": "8aaf8454b3fefb15d150284bc7a33b052f991cc4808e5c614328a1da013a058e",
+      "sha256": "8aaf8454b3fefb15d150284bc7a33b052f991cc4808e5c614328a1da013a058e",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_20.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        20
+      ],
+      "cell_source_sha256": "cefdccdd228243b7e06472488721995236fb5688a3e46e376e4874a21e3e9c95",
+      "sha256": "cefdccdd228243b7e06472488721995236fb5688a3e46e376e4874a21e3e9c95",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_22.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        22
+      ],
+      "cell_source_sha256": "115f7cb9413d7921fdd88048bd72e10d9aa547bf2e90ee11d7f7437dffe4243d",
+      "sha256": "115f7cb9413d7921fdd88048bd72e10d9aa547bf2e90ee11d7f7437dffe4243d",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_23.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        23
+      ],
+      "cell_source_sha256": "12e62078956fe364de9672f77f6ce45ed749b52dc58d2a603a1a043ee23d6efd",
+      "sha256": "12e62078956fe364de9672f77f6ce45ed749b52dc58d2a603a1a043ee23d6efd",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_25.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        25
+      ],
+      "cell_source_sha256": "414f8dbaa8ea23e1bfd571b74b3d4783e85cfc6ebb52c44507cfb2b0ac01c322",
+      "sha256": "414f8dbaa8ea23e1bfd571b74b3d4783e85cfc6ebb52c44507cfb2b0ac01c322",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/nested_cell_26.py",
+      "original_path": "revision/ablation_battery_nested_repeated_oof_robust_gp_pf.ipynb",
+      "notebook_sha256": "e3ac1b4b6879be4204986bff0299b95c1b9628e7231ebb1460a7f2ea3a1a2220",
+      "cell_indices_zero_based": [
+        26
+      ],
+      "cell_source_sha256": "593c0fa53a04d236603cc7b8c07bb670b3829935eb58b93868c41b2a70efae62",
+      "sha256": "593c0fa53a04d236603cc7b8c07bb670b3829935eb58b93868c41b2a70efae62",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/li_cell_02.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Li.ipynb",
+      "notebook_sha256": "c41a4c6a9f8954fdfc99eada977e89691e703576b3b72752f631e9a7364fbd0c",
+      "cell_indices_zero_based": [
+        2
+      ],
+      "cell_source_sha256": "b36f97fa8705043a43e5ca1ac77543557529eb7590b89c94044210a09d6dd51b",
+      "sha256": "b36f97fa8705043a43e5ca1ac77543557529eb7590b89c94044210a09d6dd51b",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/li_cell_04.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Li.ipynb",
+      "notebook_sha256": "c41a4c6a9f8954fdfc99eada977e89691e703576b3b72752f631e9a7364fbd0c",
+      "cell_indices_zero_based": [
+        4
+      ],
+      "cell_source_sha256": "115f7cb9413d7921fdd88048bd72e10d9aa547bf2e90ee11d7f7437dffe4243d",
+      "sha256": "115f7cb9413d7921fdd88048bd72e10d9aa547bf2e90ee11d7f7437dffe4243d",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/li_cell_22.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Li.ipynb",
+      "notebook_sha256": "c41a4c6a9f8954fdfc99eada977e89691e703576b3b72752f631e9a7364fbd0c",
+      "cell_indices_zero_based": [
+        22
+      ],
+      "cell_source_sha256": "8e4c8c579f1a0875c57c090a4a0ed786c09e8b1ffd1b9705ff27fc9e6e75b7a1",
+      "sha256": "8e4c8c579f1a0875c57c090a4a0ed786c09e8b1ffd1b9705ff27fc9e6e75b7a1",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/li_cell_29.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Li.ipynb",
+      "notebook_sha256": "c41a4c6a9f8954fdfc99eada977e89691e703576b3b72752f631e9a7364fbd0c",
+      "cell_indices_zero_based": [
+        29
+      ],
+      "cell_source_sha256": "e82a9ff8e0803862431c0a05580f6641ea3e0e30a3c5590e5892bcb3246f16e7",
+      "sha256": "e82a9ff8e0803862431c0a05580f6641ea3e0e30a3c5590e5892bcb3246f16e7",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/li_cell_31.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Li.ipynb",
+      "notebook_sha256": "c41a4c6a9f8954fdfc99eada977e89691e703576b3b72752f631e9a7364fbd0c",
+      "cell_indices_zero_based": [
+        31
+      ],
+      "cell_source_sha256": "35753a153975f3c324f3af221253616bfead312e9aa1ab8f534716281ca753d2",
+      "sha256": "35753a153975f3c324f3af221253616bfead312e9aa1ab8f534716281ca753d2",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/li_cell_43.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Li.ipynb",
+      "notebook_sha256": "c41a4c6a9f8954fdfc99eada977e89691e703576b3b72752f631e9a7364fbd0c",
+      "cell_indices_zero_based": [
+        43
+      ],
+      "cell_source_sha256": "48396305f91c0ba685235b143e8c0614b5a9897cb14d1d2d636fa85ffdbc8cfd",
+      "sha256": "48396305f91c0ba685235b143e8c0614b5a9897cb14d1d2d636fa85ffdbc8cfd",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/li_cell_44.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Li.ipynb",
+      "notebook_sha256": "c41a4c6a9f8954fdfc99eada977e89691e703576b3b72752f631e9a7364fbd0c",
+      "cell_indices_zero_based": [
+        44
+      ],
+      "cell_source_sha256": "a2f971b5709bca5197b5e7cd872acad0c4e42845460fef6e26d93c6ea47aa3b7",
+      "sha256": "a2f971b5709bca5197b5e7cd872acad0c4e42845460fef6e26d93c6ea47aa3b7",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/verma_cell_02.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Ver.ipynb",
+      "notebook_sha256": "61d06cedc8d0d45e8c90bd205b4404cf091f9fe006add54d8f9155f03e64dea9",
+      "cell_indices_zero_based": [
+        2
+      ],
+      "cell_source_sha256": "ff5bd7361439fdd46fbbe7f0302c1f077a55e1719a37a89c1224b9c726c3d5b5",
+      "sha256": "ff5bd7361439fdd46fbbe7f0302c1f077a55e1719a37a89c1224b9c726c3d5b5",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/verma_cell_04.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Ver.ipynb",
+      "notebook_sha256": "61d06cedc8d0d45e8c90bd205b4404cf091f9fe006add54d8f9155f03e64dea9",
+      "cell_indices_zero_based": [
+        4
+      ],
+      "cell_source_sha256": "c3950772e271efb4dc4112a45ed37fbad6359d11136e2802f1f493e201ede654",
+      "sha256": "c3950772e271efb4dc4112a45ed37fbad6359d11136e2802f1f493e201ede654",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/verma_cell_22.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Ver.ipynb",
+      "notebook_sha256": "61d06cedc8d0d45e8c90bd205b4404cf091f9fe006add54d8f9155f03e64dea9",
+      "cell_indices_zero_based": [
+        22
+      ],
+      "cell_source_sha256": "8e4c8c579f1a0875c57c090a4a0ed786c09e8b1ffd1b9705ff27fc9e6e75b7a1",
+      "sha256": "8e4c8c579f1a0875c57c090a4a0ed786c09e8b1ffd1b9705ff27fc9e6e75b7a1",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/verma_cell_30.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Ver.ipynb",
+      "notebook_sha256": "61d06cedc8d0d45e8c90bd205b4404cf091f9fe006add54d8f9155f03e64dea9",
+      "cell_indices_zero_based": [
+        30
+      ],
+      "cell_source_sha256": "3bed028f53f495ccdbf3603d290804f74481b455c55e833883a0520e9261a100",
+      "sha256": "3bed028f53f495ccdbf3603d290804f74481b455c55e833883a0520e9261a100",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/verma_cell_31.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Ver.ipynb",
+      "notebook_sha256": "61d06cedc8d0d45e8c90bd205b4404cf091f9fe006add54d8f9155f03e64dea9",
+      "cell_indices_zero_based": [
+        31
+      ],
+      "cell_source_sha256": "fa9edecd4b6a69369042bff444738ea7af1cb7106aaca12f42351fbaababcb9e",
+      "sha256": "fa9edecd4b6a69369042bff444738ea7af1cb7106aaca12f42351fbaababcb9e",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/verma_cell_32.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Ver.ipynb",
+      "notebook_sha256": "61d06cedc8d0d45e8c90bd205b4404cf091f9fe006add54d8f9155f03e64dea9",
+      "cell_indices_zero_based": [
+        32
+      ],
+      "cell_source_sha256": "bad153b82b312d780155751f9a2e956e7be1f5f8863c44706da3db79b54bd04c",
+      "sha256": "bad153b82b312d780155751f9a2e956e7be1f5f8863c44706da3db79b54bd04c",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/verma_cell_48.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Ver.ipynb",
+      "notebook_sha256": "61d06cedc8d0d45e8c90bd205b4404cf091f9fe006add54d8f9155f03e64dea9",
+      "cell_indices_zero_based": [
+        48
+      ],
+      "cell_source_sha256": "48396305f91c0ba685235b143e8c0614b5a9897cb14d1d2d636fa85ffdbc8cfd",
+      "sha256": "48396305f91c0ba685235b143e8c0614b5a9897cb14d1d2d636fa85ffdbc8cfd",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/verma_cell_49.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Ver.ipynb",
+      "notebook_sha256": "61d06cedc8d0d45e8c90bd205b4404cf091f9fe006add54d8f9155f03e64dea9",
+      "cell_indices_zero_based": [
+        49
+      ],
+      "cell_source_sha256": "777b1a7aa4c0ac32efeff8d784c410bd1f71729c43a65229713d9514d74be425",
+      "sha256": "777b1a7aa4c0ac32efeff8d784c410bd1f71729c43a65229713d9514d74be425",
+      "changes": "None; exact UTF-8 joined cell source."
+    },
+    {
+      "path": "workflows/public/source/verma_plot_source.ipynb",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_Ver.ipynb",
+      "notebook_sha256": "61d06cedc8d0d45e8c90bd205b4404cf091f9fe006add54d8f9155f03e64dea9",
+      "cell_indices_zero_based": [
+        31
+      ],
+      "cell_source_sha256": "fa9edecd4b6a69369042bff444738ea7af1cb7106aaca12f42351fbaababcb9e",
+      "sha256": "d3cdd23d05ef65bbdbdf6e86033e2834a5bec521d17ef6e6adaf1b02f9852a34",
+      "changes": "Only original cell 31 in a source-only notebook for the original plot-function loader."
+    }
+  ],
+  "path_modifications": [
+    {
+      "path": "workflows/public/plots/plot_verma_pf_local_support_3x3.py",
+      "changes": {
+        "notebook = HERE.parent / \"CaseStudy_battery_Ver.ipynb\"": "notebook = HERE.parent / \"source\" / \"verma_plot_source.ipynb\"",
+        "source = HERE / \"verma_pf_store.pkl\"": "source = HERE.parent / \"reference\" / \"pareto\" / \"verma_pf_store.pkl\"",
+        "observed_path = HERE.parents[1] / \"battery_data_Verma_modify.xlsx\"": "observed_path = HERE.parent / \"data\" / \"battery_data_Verma_modify.xlsx\""
+      },
+      "modified_sha256": "d97462170dbd46fdc438d2eb9dab09f45b3698283d8cc85097af822e23c16acb"
+    }
+  ],
+  "runtime_modifications": [
+    "Notebook data and output string constants are replaced with local absolute paths at execution only.",
+    "Explicit --smoke alters only invocation keyword values and factory bag count; source snapshots remain exact.",
+    "Figure runners override explicit file-path arguments or the plotting OUTPUT variable.",
+    "Nested reliability rendering extracts only the original plotting function, without fitting models.",
+    "Cell execution uses a registered Python module and compile(dont_inherit=True), preserving original cell annotation semantics instead of inheriting runner future flags."
+  ],
+  "historical_environment": {
+    "python": "3.10.15",
+    "environment": "arbo",
+    "evidence": "Both nested source notebook metadata and stored output traceback paths."
+  },
+  "limits": [
+    "Full historical retraining has not been executed for this packaging task. Seeded GP optimizer results can depend on library versions and hardware.",
+    "Case-study Pareto calibration is preserved separately from nested validation calibration; no method harmonization is performed.",
+    "Saved Pareto Y_pareto coordinates are predictive means. Adjusted selection objectives and predictive standard deviations were not saved in the public pickle.",
+    "Li saved keys are raw/raw_uncertainty/cal; Verma saved keys raw/raw_uncertainty/cfsc, despite metadata listing cal. Keys preserved.",
+    "The nested notebook Pareto appendage is not the final requested Pareto source: Verma failed with a 4.95 GB allocation error; it is excluded.",
+    "Older Section 6 paper scripts read pre-nested validation results; they are excluded from this latest validation package."
+  ],
+  "validation": {
+    "environment": "arbo Python 3.10.15",
+    "passed": [
+      "Parsed all 34 public Python files with ast.parse.",
+      "CLI --help.",
+      "All Li and Verma final Pareto and latest nested reliability figures recreated.",
+      "Li figures executed successfully from the external system Temp working directory.",
+      "All 5 original Verma numerical unit tests passed.",
+      "Four regenerated Verma numeric CSV tables match archived results with rtol=atol=1e-12.",
+      "All 108 selected copies and extraction artifacts match recorded hashes after the three documented plotting path changes.",
+      "Li nested-surrogate CPU smoke completed.",
+      "Li nested-calibration CPU smoke completed.",
+      "Li Pareto CPU smoke completed.",
+      "Verma Pareto CPU smoke completed.",
+      "Smoke PF pickle metadata records the actual one seed, population 16 and two generations.",
+      "Generated Verma framework comparison PNG visually inspected.",
+      "Verma nested-surrogate CPU smoke completed through the root reproduce.py CLI; all 47 numeric metric columns across three rows are finite.",
+      "Verma nested-calibration CPU smoke completed through the root reproduce.py CLI; all 34 numeric metric columns across three rows are finite."
+    ],
+    "not_executed": [
+      "Full repeated nested and Pareto training at original complete settings."
+    ]
+  }
+}

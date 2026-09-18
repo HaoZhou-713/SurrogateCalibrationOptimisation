@@ -1,0 +1,18 @@
+# Scientific package versions observed in the notebooks' arbo environment.
+# The observed torch build was 2.7.1+cu126; select a matching platform wheel
+# if CUDA bit-level agreement is needed. The algorithm also supports CPU.
+-c requirements-lock.txt
+numpy==2.2.6
+pandas==2.3.2
+scipy==1.15.3
+scikit-learn==1.7.1
+torch==2.7.1
+gpytorch==1.14
+botorch==0.14.0
+linear-operator==0.6
+pyro-ppl==1.9.1
+matplotlib==3.10.5
+openpyxl==3.1.5
+joblib==1.5.1
+seaborn==0.13.2
+tqdm==4.67.1

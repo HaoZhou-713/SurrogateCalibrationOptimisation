@@ -1,0 +1,243 @@
+{
+  "workflow": "inhouse",
+  "authoritative_notebook": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_sim.ipynb",
+  "notebook_sha256": "031acd0917ce619147b7aa8e84a4887e94c8c2d0bcad205f33b31e6e2ab805fe",
+  "cell_indexing": "zero-based",
+  "files": [
+    {
+      "path": "workflows/inhouse/data/Contraction Channel Data.xlsx",
+      "original_path": "Contraction Channel Data.xlsx",
+      "sha256": "6dac92b2ad61a2252758ef1047bdbb875f81576cb13490034fb2ecb126af50e8",
+      "role": "Original 168-row in-house training workbook; select 50 rows with random_state=42"
+    },
+    {
+      "path": "workflows/inhouse/data/simulation_selected_validation_points.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/simulation_validation/simulation_selected_validation_points.csv",
+      "sha256": "b4808a5f83ff8b29f5887c7628fa0af49205756b21f0d05c85dd11f7912cb785",
+      "role": "Externally supplied simulation truth and original batch predictions; retain all 25 rows"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_three_pf_validation_from_csv.pdf",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/simulation_three_pf_validation_from_csv.pdf",
+      "sha256": "6e2ed193ab255a2f94a04aa5331ec1e5c2b123a3ec622a670e508ef1583ac842",
+      "role": "Archived final figure or its numerical/selected-design reference artifact"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_three_pf_validation_from_csv.png",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/simulation_three_pf_validation_from_csv.png",
+      "sha256": "8897776a6f1b1acc4f22cac699a31f0627262ae3ec1ef82075cf5dd42453a1c6",
+      "role": "Archived final figure or its numerical/selected-design reference artifact"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_three_pf_validation_from_csv_pf.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/simulation_three_pf_validation_from_csv_pf.csv",
+      "sha256": "276007cf9743bce72d99a202f23ab591b8b6f7af666aa6356400b0252c0435c2",
+      "role": "Archived final figure or its numerical/selected-design reference artifact"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_three_pf_validation_from_csv_training.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/simulation_three_pf_validation_from_csv_training.csv",
+      "sha256": "fc5cf60f1974b979600067dc09aa6644450b9eef1bee6b6dab29f4158bd3f0d2",
+      "role": "Archived final figure or its numerical/selected-design reference artifact"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_three_pf_validation_from_csv_validation.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/simulation_three_pf_validation_from_csv_validation.csv",
+      "sha256": "d434257118cb7f46ff0b0e6e8ef0f65c003c7d58e5231c1c6940faa20215f4d6",
+      "role": "Archived final figure or its numerical/selected-design reference artifact"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_selected_validation_points.pkl",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/simulation_selected_validation_points.pkl",
+      "sha256": "2d4242d418d27d4c99395cf8ea1a07eb8e455b03f7f0c8530efe0f973e1d79e2",
+      "role": "Archived final figure or its numerical/selected-design reference artifact"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_selected_validation_points_selected_long.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/simulation_selected_validation_points_selected_long.csv",
+      "sha256": "c2a6127566e48d0658f2c8d774e9556074b5ccc9ea2c2926cd706bb3c42c047e",
+      "role": "Archived final figure or its numerical/selected-design reference artifact"
+    },
+    {
+      "path": "workflows/inhouse/reference/simulation_selected_validation_points_simulation_unique.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/simulation_selected_validation_points_simulation_unique.csv",
+      "sha256": "9f858323a74ae03726a5e3510ef4252b3d5e6529f9cadda5bf2cf3e3bb3c71be",
+      "role": "Archived final figure or its numerical/selected-design reference artifact"
+    }
+  ],
+  "extractions": [
+    {
+      "path": "workflows/inhouse/source/training_cells.json",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_sim.ipynb",
+      "cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "b36f97fa8705043a43e5ca1ac77543557529eb7590b89c94044210a09d6dd51b"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "97e89c93469f5a163d8a637a7498373fbc49b92123aa38e30e063e1b5b0340d4"
+        },
+        {
+          "cell_index": 8,
+          "source_sha256": "16af775a0514f36a5310e4243ced992e4ec77adf83935c306c50357e952fee75"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "a01cfdedec9461f56315522ce65d25f28edb11986e76f787a7d58afcd5c5d4aa"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "45536e3438c5d7605f9f546c26a4af7ced627f4234366442c8b85948e4a8bf9c"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "90c2167dc9c43b8a170d01dcd3eab45495433f2dc7cc45336641b2a2de7e46a3"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "7948a2d5095887bc90ddb2266752acae9fbf594eb2523d0537152826abc52807"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "35814169e922652d4678149e392bbc2fca6eca71e4cb3ee16cffa935c079698d"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "7948a2d5095887bc90ddb2266752acae9fbf594eb2523d0537152826abc52807"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "919be33d732ee1f2be3282ddf1c747675d572bbd7580a38c82257a4339db90f9"
+        },
+        {
+          "cell_index": 22,
+          "source_sha256": "8e4c8c579f1a0875c57c090a4a0ed786c09e8b1ffd1b9705ff27fc9e6e75b7a1"
+        },
+        {
+          "cell_index": 23,
+          "source_sha256": "42ca5180e8237dd17a07ee87cc35a300bf4f90489802d5bd450627f2ec393a98"
+        },
+        {
+          "cell_index": 24,
+          "source_sha256": "8e4e6d3a5573126f538cf6caf15299cddac799d5903140592317ee48840f054a"
+        },
+        {
+          "cell_index": 25,
+          "source_sha256": "e8f5285ddd4d315660f707eb0c5ddcc2badc58d6a457e3b88561851a588ca46a"
+        },
+        {
+          "cell_index": 37,
+          "source_sha256": "2305c8a4c76f89d1b6185dadfaea3dc7ed260a2c279907b6a2c474e8bf3586b9"
+        },
+        {
+          "cell_index": 38,
+          "source_sha256": "22e1b47005eb216d349f67dd8863dc2abc8c2d9373cfbba9e13162b85cdec8d2"
+        },
+        {
+          "cell_index": 40,
+          "source_sha256": "52376a1f086394359a4e01357bc415fcef240eabffb38ec4ca02d052dac480a0"
+        },
+        {
+          "cell_index": 41,
+          "source_sha256": "2697a7d7acf4b2bf2541839796ab0da5ff2035e8f01bfe9aeb527877bd1248b0"
+        }
+      ],
+      "modifications": "Cell sources are exact original Unicode strings. Runtime wrapper changes only cell 4 input path and cell 41 output path. Explicit --smoke overrides are separately recorded in run_metadata.json."
+    },
+    {
+      "path": "workflows/inhouse/source/plotting.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_battery_sim.ipynb",
+      "cell_index": 42,
+      "source_sha256": "cc4e24a297334246c08efbb86c951c30159366947cdd835599c1c6ec18533e08",
+      "selected_lines_1based": [
+        1,
+        319
+      ],
+      "extracted_sha256": "49de5593bf7ecd5ddb2d7cf78e0007c59ad4a050d995e0da7efdeeda71da9bdf",
+      "modifications": "Retained imports and plot_three_pf_with_validation definition verbatim; omitted notebook-current-working-directory caller and supplied portable caller in run.py."
+    }
+  ],
+  "excluded_cells": {
+    "6,7": "Unused model checkpoint helpers",
+    "18,19,20,26": "Exploratory diagnostics/plots; cell 19 has stale five-feature saved output",
+    "29-36": "Superseded two-framework selection/plot support",
+    "39": "Console-only selected-design display",
+    "43-53": "Historical seed-sweep/overlap experiments; saved state is not the final three-framework validation figure"
+  },
+  "boundary": "Python trains the surrogate, generates Pareto candidates and plots supplied simulation truth. It does not run COMSOL or regenerate Real T/Real P. Original .mph files are not bundled.",
+  "reference_check": {
+    "pf_points_per_framework": 128,
+    "training_points": 50,
+    "simulation_records": 25,
+    "truth_complete": 25,
+    "framework_records": {
+      "raw": 10,
+      "raw_uncertainty": 5,
+      "cfsc": 10
+    },
+    "sample_matches_workbook": true
+  },
+  "runtime_modifications": [
+    {
+      "cell_index": 4,
+      "change": "Replace relative workbook path with packaged data/Contraction Channel Data.xlsx resolved from run.py"
+    },
+    {
+      "cell_index": 41,
+      "change": "Redirect pareto_results output to generated OUTPUT_DIR/selected_validation"
+    },
+    {
+      "cells": [
+        14,
+        16
+      ],
+      "change": "Export generated predicted-vs-actual figures as PNG without changing plotting calculation"
+    },
+    {
+      "cell_index": 42,
+      "change": "Portable caller uses archived arrays for figures mode or newly trained arrays for train mode; both retain original historical prediction/truth CSV"
+    }
+  ],
+  "smoke_overrides": {
+    "sample_n": 20,
+    "bags": 0,
+    "kernel_grid": [
+      [
+        "RBF",
+        null
+      ]
+    ],
+    "calibration_K": 2,
+    "pop_size": 12,
+    "n_gen": 2,
+    "torch_threads": 1
+  },
+  "validation_performed": {
+    "environment": "original arbo Python 3.10 environment",
+    "figures": "Real script invoked from unrelated temporary cwd; all 25 validation records and 384 PF points retained; original data/reference hashes unchanged",
+    "train_smoke": "Actual CPU fit/evaluation/finalize/calibration/three-front optimization/selection/export completed",
+    "full_train": "Completed with original settings in arbo; six exported artifacts byte-identical to archived references; see full_training_validation",
+    "numeric_replot_error_max_absolute_difference": 2.842170943040401e-14
+  },
+  "full_training_validation": {
+    "command": "python reproduce.py run inhouse train",
+    "environment": "recorded arbo Python 3.10.15",
+    "status": "complete",
+    "smoke": false,
+    "training_rows": 50,
+    "bags": 20,
+    "calibration_folds": 5,
+    "population": 128,
+    "generations": 150,
+    "byte_identical_to_archived": [
+      "simulation_three_pf_validation_from_csv_pf.csv",
+      "simulation_three_pf_validation_from_csv_training.csv",
+      "simulation_three_pf_validation_from_csv_validation.csv",
+      "simulation_three_pf_validation_from_csv.png",
+      "simulation_selected_validation_points_selected_long.csv",
+      "simulation_selected_validation_points_simulation_unique.csv"
+    ],
+    "boundary": "External simulation truth is an unchanged input; no new COMSOL solve."
+  }
+}

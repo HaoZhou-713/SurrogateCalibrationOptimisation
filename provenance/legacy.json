@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path": "legacy/surrogate_pipeline.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/surrogate_pipeline.py",
+      "sha256": "29b16b308aaa56528b9bcf47161f00502e6afd461de79df7a753994b2ad6117e",
+      "role": "Unmodified scientific implementation; revision copy is byte-identical."
+    },
+    {
+      "path": "legacy/surrogate_pareto_botorch.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/surrogate_pareto_botorch.py",
+      "sha256": "d053dccd3b9dd3ac64d5dcf4affa5a6758667ed25f51943d084bab0ad6183e89",
+      "role": "Unmodified scientific implementation; revision copy is byte-identical."
+    }
+  ],
+  "excluded": {
+    "surrogate_pareto.py": "Older helper module; no imports from selected final workflows."
+  }
+}

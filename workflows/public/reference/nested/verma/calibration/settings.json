@@ -1,0 +1,48 @@
+{
+  "evaluation_protocol": "nested repeated outer K-fold CV with observation-level OOF predictions",
+  "surrogate_method": "Model Selection + Bagging",
+  "repeat_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "n_repeats": 10,
+  "outer_folds": 5,
+  "inner_folds": 5,
+  "calibration_folds": 5,
+  "alpha": 0.1,
+  "nominal_coverage": 0.9,
+  "calibration_frac": 0.2,
+  "conformal_mode": "per_target",
+  "bags": 20,
+  "total_ensemble_members": 21,
+  "kernel_grid": [
+    "[\"RBF\", null]",
+    "[\"Matern\", 0.5]",
+    "[\"Matern\", 1.5]",
+    "[\"Matern\", 2.5]"
+  ],
+  "feature_names": [
+    "V",
+    "T_in",
+    "AR",
+    "IA"
+  ],
+  "target_names": [
+    "T",
+    "P",
+    "TD"
+  ],
+  "independent_observational_units": 100,
+  "repeats_interpretation": "partition sensitivity only; not independent replication",
+  "dataset_level_ci_unit": "original_observation_id",
+  "bootstrap_reps": 2000,
+  "bootstrap_confidence": 0.95
+}

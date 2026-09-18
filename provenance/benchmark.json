@@ -1,0 +1,1157 @@
+{
+  "workflow": "benchmark",
+  "files": [
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_001.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "repo_sha256": "4bfaa51a977f19b127b617e1c3c4e28eb9d98d2cb472dcd62aed9611c2910d8f",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 1
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_002.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "repo_sha256": "6be3c6d07ff4c535571dc6d0f8a1b3784b533c831dcc54bd22096b6297204a94",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 2
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_003.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "repo_sha256": "7c7577c0b8194c3ca488d9d6760e0c257467b38bd9ba6daa7091e377fee78cdc",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 3
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_004.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "repo_sha256": "cdfca03a2bf98f2d6d390e9c2dabe03880574e6777a1e6195da66e3c14c84436",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 4
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_005.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "repo_sha256": "4d799380fe1d06810d30b5080bfd240d4f5136a7e53f7947d4ca88d8ad6c53a2",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 5
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_006.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "repo_sha256": "65cddfb139e3b5fbb443cb2dd5378c524c38abfabb39b7ca59635e1058a858dd",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 6
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_007.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "repo_sha256": "cce85baaf82b51abc501fd0789347553bdb4ee29bfd267b54afe95c6b8d20c05",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 7
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_008.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "repo_sha256": "4deab8bcf5d2da05cca00db818f8a427bcbce7d339582d31e37c4299dd5e5ed3",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 8
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_009.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "repo_sha256": "fd8af9da840414e3cdbdc27de54f13e1110a8cf5ce8f517e0ca6e2c0185fb5d7",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 9
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_010.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "repo_sha256": "df04799d0665af9b8941c88da91d824fe68c6376af57a54304813782a6c73aaf",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 10
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_five_methods/cell_011.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "repo_sha256": "bb4c7dfc836094fe11f8de05a78997892b3fe262316677f11daaec7e79813c3b",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 11
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_001.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "repo_sha256": "4bfaa51a977f19b127b617e1c3c4e28eb9d98d2cb472dcd62aed9611c2910d8f",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 1
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_002.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "repo_sha256": "de507ddbb2a0d82a1921e303451b6cae31cc99863182b62034b6329436315195",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 2
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_003.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "repo_sha256": "9bdd96f6806a10a74b0e258b27e8198e1f1c9b96ff0686943a9c1d180c32a9cf",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 3
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_004.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "repo_sha256": "cdfca03a2bf98f2d6d390e9c2dabe03880574e6777a1e6195da66e3c14c84436",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 4
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_005.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "repo_sha256": "4d799380fe1d06810d30b5080bfd240d4f5136a7e53f7947d4ca88d8ad6c53a2",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 5
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_006.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "repo_sha256": "65cddfb139e3b5fbb443cb2dd5378c524c38abfabb39b7ca59635e1058a858dd",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 6
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_007.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "repo_sha256": "cce85baaf82b51abc501fd0789347553bdb4ee29bfd267b54afe95c6b8d20c05",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 7
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_008.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "repo_sha256": "4deab8bcf5d2da05cca00db818f8a427bcbce7d339582d31e37c4299dd5e5ed3",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 8
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_009.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "repo_sha256": "fd8af9da840414e3cdbdc27de54f13e1110a8cf5ce8f517e0ca6e2c0185fb5d7",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 9
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_010.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "repo_sha256": "df04799d0665af9b8941c88da91d824fe68c6376af57a54304813782a6c73aaf",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 10
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_five_methods/cell_011.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "repo_sha256": "bfbeefad27dc7197d195f4d63ae0d58e2cf23289ba74925b318ff09d85a9fe3b",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 11
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_001.py",
+      "original_path": "revision/FON_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "4f474a87b51381c834ce4631f0ee8d612af35c035c2b984d5bc762a27a491707",
+      "repo_sha256": "4bfaa51a977f19b127b617e1c3c4e28eb9d98d2cb472dcd62aed9611c2910d8f",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 1
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_002.py",
+      "original_path": "revision/FON_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "4f474a87b51381c834ce4631f0ee8d612af35c035c2b984d5bc762a27a491707",
+      "repo_sha256": "93e49c8966077d0a19f0a4121e7156e4b2f0acba99174fc43d7b67d294563d6f",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 2
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_003.py",
+      "original_path": "revision/FON_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "4f474a87b51381c834ce4631f0ee8d612af35c035c2b984d5bc762a27a491707",
+      "repo_sha256": "08b89e29e63344bf8b885d3873982cc96dd1d586db2f26c98b1c8a01e42ef0e8",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 3
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_004.py",
+      "original_path": "revision/FON_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "4f474a87b51381c834ce4631f0ee8d612af35c035c2b984d5bc762a27a491707",
+      "repo_sha256": "d69c44d72d7c9d870e6ce76f00fc9ece24f5d0947812828b13148457b96b63ed",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 4
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_005.py",
+      "original_path": "revision/FON_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "4f474a87b51381c834ce4631f0ee8d612af35c035c2b984d5bc762a27a491707",
+      "repo_sha256": "1fff7bd521c64cfa1288d341f7e16665ba5eb72020a1c833c1d44b40b9f81b90",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 5
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_006.py",
+      "original_path": "revision/FON_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "4f474a87b51381c834ce4631f0ee8d612af35c035c2b984d5bc762a27a491707",
+      "repo_sha256": "efb994bf8d09e1ae63240c3bd73d71fad8cf6bbcd8f479eda868d36ce5d2c201",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 6
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_vanilla/cell_007.py",
+      "original_path": "revision/FON_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "4f474a87b51381c834ce4631f0ee8d612af35c035c2b984d5bc762a27a491707",
+      "repo_sha256": "0627d5ba716873939ab5ec56a65e87f5be9801259309ac5e2559ca4fa1dd659f",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 7
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_001.py",
+      "original_path": "revision/DTLZ2_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "256122af1e9054e785c0775a5bb8a748171767cf9313ead5386914c1bfc0ec19",
+      "repo_sha256": "40b34b1cbd350ac25d973ec7e1306c177a603522c765cc2ec4d96da22205c02d",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 1
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_002.py",
+      "original_path": "revision/DTLZ2_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "256122af1e9054e785c0775a5bb8a748171767cf9313ead5386914c1bfc0ec19",
+      "repo_sha256": "336378ea633dc11094374e4be1ae4423b1f52df529476e27a21af0dc847f89c4",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 2
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_003.py",
+      "original_path": "revision/DTLZ2_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "256122af1e9054e785c0775a5bb8a748171767cf9313ead5386914c1bfc0ec19",
+      "repo_sha256": "08b89e29e63344bf8b885d3873982cc96dd1d586db2f26c98b1c8a01e42ef0e8",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 3
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_004.py",
+      "original_path": "revision/DTLZ2_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "256122af1e9054e785c0775a5bb8a748171767cf9313ead5386914c1bfc0ec19",
+      "repo_sha256": "c78ae1ccd774e43c3ec2d5bd02fa7668d131b3de66e693c65a1376c5ea44217f",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 4
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_005.py",
+      "original_path": "revision/DTLZ2_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "256122af1e9054e785c0775a5bb8a748171767cf9313ead5386914c1bfc0ec19",
+      "repo_sha256": "efb994bf8d09e1ae63240c3bd73d71fad8cf6bbcd8f479eda868d36ce5d2c201",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 5
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_vanilla/cell_006.py",
+      "original_path": "revision/DTLZ2_true_vanilla_GP_complete_q25_q75.ipynb",
+      "sha256": "256122af1e9054e785c0775a5bb8a748171767cf9313ead5386914c1bfc0ec19",
+      "repo_sha256": "0627d5ba716873939ab5ec56a65e87f5be9801259309ac5e2559ca4fa1dd659f",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 6
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_002.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "290af1ef7658c10f162fea4972bf9903b756c636a5ceb98b3c7b7430f4a63ad9",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 2
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_004.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "345cf0a2aba0b5d66c65faf771350095ad3ba6776ed2fb228655e9aa2e6254bc",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 4
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_005.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "7c0b25e6711de3bc005c8d3c4cd15b5dc0d42ae1cdeae2336b06ac5d09c441ea",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 5
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_026.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "004b5cf22f8055c8dcf5e55e9674da892b13e6c9c7d9c43db630a07f74120785",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 26
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_027.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "7a24a2f096e1894f6422593730e8b066329dde82f400aa70a0e6ee3da2d2f011",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 27
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_028.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "69eaf8fa2c990ebbf8694ce2045b48efbf6356a67fdbec56bea6fe2f856cc798",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 28
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_029.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "fde9a6d3a855b26f65cb2119a92ebfdfcc6208b1a0144a251c3f153e22acc780",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 29
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_031.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "c1a17113c03c0fee99369a0e29d3f638bbfb8842a557a5d2be5b90ecc2287f38",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 31
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_032.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "3f4ce22171aa817fd9d507b6dd5af836112347714740df51e04d8756ef866971",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 32
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_034.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "2db2d4cf2c756fb57f4dbf896af33d4da60198d6b60dd094166eeedd15d99d50",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 34
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_037.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "8d64fe8a431ef357ed82a9f1619cd702ca8a5a08b59e6003a5c4a27299936695",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 37
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_039.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "8b9f67b095c1013e538912226b11dbc486b8d5429f77b071117323c94a712162",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 39
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_040.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "33cc599f22b690cc3072d72cb4de74ac67fcaf2da74d4e9bed4ed2b79b74ae51",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 40
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_cv_metrics/cell_042.py",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "repo_sha256": "c290ee6bb2b9c9adccfa9ca0ff60c5bd22e11c49b3bfac93b35b4109a4ca3af2",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 42
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_001.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_cvplus_metrics_fixed.ipynb",
+      "sha256": "aab6efa1c9d63390b2fdd32dbaeceac5153c4812325d9783362c9f3f34675cb0",
+      "repo_sha256": "1458b6f3eb3125e4d8ae160e3332168afefa1858cd41a846112df33ed6b5c08f",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 1
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_002.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_cvplus_metrics_fixed.ipynb",
+      "sha256": "aab6efa1c9d63390b2fdd32dbaeceac5153c4812325d9783362c9f3f34675cb0",
+      "repo_sha256": "fdda19b33467d1aec5f85ac5ad966b1c8d1750a132b904c927b8be44a824d255",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 2
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_003.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_cvplus_metrics_fixed.ipynb",
+      "sha256": "aab6efa1c9d63390b2fdd32dbaeceac5153c4812325d9783362c9f3f34675cb0",
+      "repo_sha256": "738ea7a980b0d88ee94f410a1a1c77e9b358eb29be0c7c7ed238d50e75d14024",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 3
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_004.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_cvplus_metrics_fixed.ipynb",
+      "sha256": "aab6efa1c9d63390b2fdd32dbaeceac5153c4812325d9783362c9f3f34675cb0",
+      "repo_sha256": "fcdb936592b82f7fd8106e4f94285e21ad470c4407c48cab34d1b2a2801b40a8",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 4
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_005.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_cvplus_metrics_fixed.ipynb",
+      "sha256": "aab6efa1c9d63390b2fdd32dbaeceac5153c4812325d9783362c9f3f34675cb0",
+      "repo_sha256": "8afbc5386e120d66480bb563508e1c23e96afa9e3f9ac27c1bc7c1694e413f2d",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 5
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_cv_metrics/cell_006.py",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_cvplus_metrics_fixed.ipynb",
+      "sha256": "aab6efa1c9d63390b2fdd32dbaeceac5153c4812325d9783362c9f3f34675cb0",
+      "repo_sha256": "1fc2186a6c4f1fa2f7693a4a49aac665f0fb142bda756b89c761be957a847b29",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 6
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_002.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "290af1ef7658c10f162fea4972bf9903b756c636a5ceb98b3c7b7430f4a63ad9",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 2
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_004.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "345cf0a2aba0b5d66c65faf771350095ad3ba6776ed2fb228655e9aa2e6254bc",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 4
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_005.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "7c0b25e6711de3bc005c8d3c4cd15b5dc0d42ae1cdeae2336b06ac5d09c441ea",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 5
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_026.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "004b5cf22f8055c8dcf5e55e9674da892b13e6c9c7d9c43db630a07f74120785",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 26
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_027.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "7a24a2f096e1894f6422593730e8b066329dde82f400aa70a0e6ee3da2d2f011",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 27
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_028.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "69eaf8fa2c990ebbf8694ce2045b48efbf6356a67fdbec56bea6fe2f856cc798",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 28
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_029.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "fde9a6d3a855b26f65cb2119a92ebfdfcc6208b1a0144a251c3f153e22acc780",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 29
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_030.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "b2b33043d2a2afa850e10a95520e7178ed92f11578d669be151fd3e80845ae79",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 30
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_032.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "2db2d4cf2c756fb57f4dbf896af33d4da60198d6b60dd094166eeedd15d99d50",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 32
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_035.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "8d64fe8a431ef357ed82a9f1619cd702ca8a5a08b59e6003a5c4a27299936695",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 35
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_037.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "8c938b5018f43fedf846ff69fc8d2f5ff0de890c9bf80f92528e2158f028ea3a",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 37
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_038.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "33cc599f22b690cc3072d72cb4de74ac67fcaf2da74d4e9bed4ed2b79b74ae51",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 38
+    },
+    {
+      "path": "workflows/benchmark/source_cells/fon_legacy_pareto/cell_040.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "repo_sha256": "ce7173ec04afc350c5e395f4da9c523a168ef961ec2b59abde40c6c6bab372ff",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 40
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_002.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "2901d6b451b61bd940ba4bf54a56dfdcd7bbc4a031251011dba7a0e1a4412343",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 2
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_003.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "ce6569ec873dbb163082602939376362b26a8fa9c40951073640f5ad659c36e0",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 3
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_006.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "bececd86e0dc9a534f863c1be680343e52388def3e0689e4d82fc013d5cf1cc0",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 6
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_007.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "403d37eabf4ae1e5e566627d9c57962162009d9a1b2643beb0fe2e1534dad3f8",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 7
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_029.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "8b1d70ac25a05721902e9b284d577804e947565eb8eba513b5322705338bd14b",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 29
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_030.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "7a24a2f096e1894f6422593730e8b066329dde82f400aa70a0e6ee3da2d2f011",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 30
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_031.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "69eaf8fa2c990ebbf8694ce2045b48efbf6356a67fdbec56bea6fe2f856cc798",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 31
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_032.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "e5baf1dcfb6c9e8dfb0d7f765421322b70385a358e4c7b222b4fc053f3d65243",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 32
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_033.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "21cac6dc3de01091f6fd9a44c173acc303bd0d1081863daf8071eb6261d0ad9a",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 33
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_034.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "a9189d3801772ceff6d82a7cb88be34041becc0cf803060e54a7e1319c296ca0",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 34
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_036.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "fc3c7e00cadeed12e33c3d6ead935b6f0e7198256dbd4c7a1e9fb86fc7cec78b",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 36
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_041.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "37effa9caacd97bad7e2ded872a87a97b8975fca47afea9c20251191e2a288dd",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 41
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_042.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "8e4c8c579f1a0875c57c090a4a0ed786c09e8b1ffd1b9705ff27fc9e6e75b7a1",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 42
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_048.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "8c938b5018f43fedf846ff69fc8d2f5ff0de890c9bf80f92528e2158f028ea3a",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 48
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_050.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "c7d729094b221cf7ec5576d2c0d37f825f3b70f75472cc1bed285058ec833a42",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 50
+    },
+    {
+      "path": "workflows/benchmark/source_cells/dtlz2_legacy_pareto/cell_052.py",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "repo_sha256": "36f9d8f93a0750dc7e5a9a35999d006c938c6faa3e602538d65ac2054fd3531c",
+      "role": "verbatim notebook code-cell source",
+      "cell_index": 52
+    },
+    {
+      "path": "workflows/benchmark/source/generate_paper_artifacts.py",
+      "original_path": "revision/results/For paper/generate_paper_artifacts.py",
+      "sha256": "88aff9728d2df45eb326bf406944cab7d6d835743142b1d40e38f7b6c219b830",
+      "repo_sha256": "88aff9728d2df45eb326bf406944cab7d6d835743142b1d40e38f7b6c219b830",
+      "role": "paper generator"
+    },
+    {
+      "path": "workflows/benchmark/source/generate_benchmark_cost_table.py",
+      "original_path": "revision/results/For paper/generate_benchmark_cost_table.py",
+      "sha256": "b2ab91886cfdb99a3bd5e548756898a898f99856bc3600698207c38fe8ac9eb2",
+      "repo_sha256": "b2ab91886cfdb99a3bd5e548756898a898f99856bc3600698207c38fe8ac9eb2",
+      "role": "paper generator"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_final.csv",
+      "original_path": "revision/results/FON/FON_5methods_20seeds_summary_final.csv",
+      "sha256": "1e5790d66814f194717b1785135cd1c5991f6ed1bd91e2955c8d853505e613f9",
+      "repo_sha256": "1e5790d66814f194717b1785135cd1c5991f6ed1bd91e2955c8d853505e613f9",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_cv_metrics.csv",
+      "original_path": "revision/results/FON/FON.csv",
+      "sha256": "ee4bebcda0349f620bbeaa279ebc6e190977f8de15a6d6a850ae68ca083ec735",
+      "repo_sha256": "ee4bebcda0349f620bbeaa279ebc6e190977f8de15a6d6a850ae68ca083ec735",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_vanilla.csv",
+      "original_path": "revision/results/FON/vanilla_gp/fon_true_vanilla_gp_20seeds.csv",
+      "sha256": "cc2e92a5660885cb2ec24e62077f42d1647a4acf8f8d57251488d68ad480f1bb",
+      "repo_sha256": "cc2e92a5660885cb2ec24e62077f42d1647a4acf8f8d57251488d68ad480f1bb",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_vanilla_summary.csv",
+      "original_path": "revision/results/FON/vanilla_gp/fon_true_vanilla_gp_20seeds_summary.csv",
+      "sha256": "7d47766941882522f146a8f6a1773a6c3afbd6690223cb7f7aa129b1a33b45f2",
+      "repo_sha256": "7d47766941882522f146a8f6a1773a6c3afbd6690223cb7f7aa129b1a33b45f2",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_five_methods.csv",
+      "original_path": "revision/results/benchmark_FON_5methods_20seeds/fon_5methods_20seeds_with_surrogate_calibration_metrics.csv",
+      "sha256": "2cfa1804563779b55b7407f5ea54f76edee8f9de108c1ba87d7158b240ce81b9",
+      "repo_sha256": "2cfa1804563779b55b7407f5ea54f76edee8f9de108c1ba87d7158b240ce81b9",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/fon_five_methods_summary.csv",
+      "original_path": "revision/results/benchmark_FON_5methods_20seeds/fon_5methods_20seeds_summary_by_method.csv",
+      "sha256": "000cbf4777db080abb5ad36d7f885de32c236234cc53323f12f5d5aa63a45f49",
+      "repo_sha256": "000cbf4777db080abb5ad36d7f885de32c236234cc53323f12f5d5aa63a45f49",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_final.csv",
+      "original_path": "revision/results/DTLZ2/DTLZ2_5methods_20seeds_summary_final.csv",
+      "sha256": "894aca0cba78539be7be237b4ab80045734931f031246857d387d5ca381d8fa9",
+      "repo_sha256": "894aca0cba78539be7be237b4ab80045734931f031246857d387d5ca381d8fa9",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_cv_metrics.csv",
+      "original_path": "revision/results/DTLZ2/DTLZ2.csv",
+      "sha256": "009f53442a142ebd14f0ed2affe51df17b15825ed4f1447c039476107c512244",
+      "repo_sha256": "009f53442a142ebd14f0ed2affe51df17b15825ed4f1447c039476107c512244",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_vanilla.csv",
+      "original_path": "revision/results/DTLZ2/vanilla_gp/dtlz2_true_vanilla_gp_20seeds.csv",
+      "sha256": "3d49066b20564253ecfbd19c78c35fabd9d9aad60d830b8bd7a66beef73a929b",
+      "repo_sha256": "3d49066b20564253ecfbd19c78c35fabd9d9aad60d830b8bd7a66beef73a929b",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_vanilla_summary.csv",
+      "original_path": "revision/results/DTLZ2/vanilla_gp/dtlz2_true_vanilla_gp_20seeds_summary.csv",
+      "sha256": "2fb8357504051ef7e6fcdc27402d93e84d41230d45a4ff0408377b0ce9a682db",
+      "repo_sha256": "2fb8357504051ef7e6fcdc27402d93e84d41230d45a4ff0408377b0ce9a682db",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_five_methods.csv",
+      "original_path": "revision/results/benchmark_DTLZ2_5methods_10seeds/dtlz2_5methods_10seeds_with_surrogate_calibration_metrics.csv",
+      "sha256": "19ffb1c53b1446d9a35f212d5da3820c8a2a070fcfbaa7851eb471e27a3feaec",
+      "repo_sha256": "19ffb1c53b1446d9a35f212d5da3820c8a2a070fcfbaa7851eb471e27a3feaec",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/dtlz2_five_methods_summary.csv",
+      "original_path": "revision/results/benchmark_DTLZ2_5methods_10seeds/dtlz2_5methods_20seeds_summary_by_method.csv",
+      "sha256": "5ecbc4b4b4948ba3b167f95d2e44c67ffedfadce66f8915e04c795a16f5d8c00",
+      "repo_sha256": "5ecbc4b4b4948ba3b167f95d2e44c67ffedfadce66f8915e04c795a16f5d8c00",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_30.csv",
+      "original_path": "revision/results/dtlz2_samples_sensitivity/dtlz2_30.csv",
+      "sha256": "d333e511238b05c4825c9aeeefed6c816be1de44feebd0d7ff38a757fb88bd83",
+      "repo_sha256": "d333e511238b05c4825c9aeeefed6c816be1de44feebd0d7ff38a757fb88bd83",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_30_summary.csv",
+      "original_path": "revision/results/dtlz2_samples_sensitivity/dtlz2_30_summary.csv",
+      "sha256": "1b652bafdc8129de413ac696c671637d0f805a0873e8f38524b148339b8ac448",
+      "repo_sha256": "1b652bafdc8129de413ac696c671637d0f805a0873e8f38524b148339b8ac448",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_50.csv",
+      "original_path": "revision/results/dtlz2_samples_sensitivity/dtlz2_50.csv",
+      "sha256": "7ca187ec8d8c6299fef7dfce3722cde1185cd19c34fa5e31629ee12948fed20c",
+      "repo_sha256": "7ca187ec8d8c6299fef7dfce3722cde1185cd19c34fa5e31629ee12948fed20c",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_50_summary.csv",
+      "original_path": "revision/results/dtlz2_samples_sensitivity/dtlz2_50_summary.csv",
+      "sha256": "46f4337f447d5b151b63b2ad82d5315d8bac9ac6060631c335f1fb2bba901abc",
+      "repo_sha256": "46f4337f447d5b151b63b2ad82d5315d8bac9ac6060631c335f1fb2bba901abc",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_90.csv",
+      "original_path": "revision/results/dtlz2_samples_sensitivity/dtlz2_90.csv",
+      "sha256": "f9f000c6e293f3607af548d477cfe7d8082d2c0dbcad9f60ffdd425fede60771",
+      "repo_sha256": "f9f000c6e293f3607af548d477cfe7d8082d2c0dbcad9f60ffdd425fede60771",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_90_summary.csv",
+      "original_path": "revision/results/dtlz2_samples_sensitivity/dtlz2_90_summary.csv",
+      "sha256": "ed97955a0fa53cef7f6c5b22678f522d4ce707c143b3c331e4c3c00b0573eabd",
+      "repo_sha256": "ed97955a0fa53cef7f6c5b22678f522d4ce707c143b3c331e4c3c00b0573eabd",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_110.csv",
+      "original_path": "revision/results/dtlz2_samples_sensitivity/dtlz2_110.csv",
+      "sha256": "12ae1684bb38e5803fa8397d6c2f7fa4d3bfae481155607188049f14faa30827",
+      "repo_sha256": "12ae1684bb38e5803fa8397d6c2f7fa4d3bfae481155607188049f14faa30827",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/dtlz2_110_summary.csv",
+      "original_path": "revision/results/dtlz2_samples_sensitivity/dtlz2_110_summary.csv",
+      "sha256": "e770ba5827483d70f4a9efb45dec032987742529a0ab13a357d1ac1a3b15ff05",
+      "repo_sha256": "e770ba5827483d70f4a9efb45dec032987742529a0ab13a357d1ac1a3b15ff05",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/sensitivity/ece95.xlsx",
+      "original_path": "revision/results/dtlz2_samples_sensitivity/DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx",
+      "sha256": "6ab3325e42cde28bd039862561f15aa73bfc51e9f66076e35817fdbb9303e0fb",
+      "repo_sha256": "6ab3325e42cde28bd039862561f15aa73bfc51e9f66076e35817fdbb9303e0fb",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/FON/basic_results.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/FON/basic_results.csv",
+      "sha256": "614864410be27e7cccd3b37558d4eadcd1b43c568028b3456c71d3bc204f3a51",
+      "repo_sha256": "614864410be27e7cccd3b37558d4eadcd1b43c568028b3456c71d3bc204f3a51",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/FON/calibrated_results.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/FON/calibrated_results.csv",
+      "sha256": "f13f7efc67eee00b97c9aae63daab83d046dac3c2c6b87f033c0ac34a00a8620",
+      "repo_sha256": "f13f7efc67eee00b97c9aae63daab83d046dac3c2c6b87f033c0ac34a00a8620",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/FON/New_method_results.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/FON/New_method_results.csv",
+      "sha256": "356230437b5d752e729eb79682eb0ac2ab40f2ec16c4789df5fbe02cc2e1de97",
+      "repo_sha256": "356230437b5d752e729eb79682eb0ac2ab40f2ec16c4789df5fbe02cc2e1de97",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/DTLZ2/basic_results.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/DTLZ2/basic_results.csv",
+      "sha256": "8a5d7baf0a1d547c3c8f4b06557195f0f62291b1aa984635598feeb612f81797",
+      "repo_sha256": "8a5d7baf0a1d547c3c8f4b06557195f0f62291b1aa984635598feeb612f81797",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/DTLZ2/normal_cali_results.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/DTLZ2/normal_cali_results.csv",
+      "sha256": "671dfad2fb60af5bafa1491a13d1cd0f3a7f38059e301e1d82b6c826df13aadc",
+      "repo_sha256": "671dfad2fb60af5bafa1491a13d1cd0f3a7f38059e301e1d82b6c826df13aadc",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/legacy_pareto/DTLZ2/cv+_results.csv",
+      "original_path": "Surrogate_models_for_small-size_datasets/DTLZ2/cv+_results.csv",
+      "sha256": "30edb81e2e807a3ceedf8671974aea53ecb3c4d7319acc5c6aca35e9ef06f3ed",
+      "repo_sha256": "30edb81e2e807a3ceedf8671974aea53ecb3c4d7319acc5c6aca35e9ef06f3ed",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/fig5_1_surrogate_accuracy_calibration.pdf",
+      "original_path": "revision/results/For paper/fig5_1_surrogate_accuracy_calibration.pdf",
+      "sha256": "2404fbc0f595ca06471572718d615c220626616ef7c15427c9861773c313471b",
+      "repo_sha256": "2404fbc0f595ca06471572718d615c220626616ef7c15427c9861773c313471b",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/fig5_2_pareto_performance.pdf",
+      "original_path": "revision/results/For paper/fig5_2_pareto_performance.pdf",
+      "sha256": "b2fa00f632798425f86694a769add5120c9850267a1f94357b4cc98c4887b89e",
+      "repo_sha256": "b2fa00f632798425f86694a769add5120c9850267a1f94357b4cc98c4887b89e",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/fig5_2_pareto_performance_new.pdf",
+      "original_path": "revision/results/For paper/fig5_2_pareto_performance_new.pdf",
+      "sha256": "b2fa00f632798425f86694a769add5120c9850267a1f94357b4cc98c4887b89e",
+      "repo_sha256": "b2fa00f632798425f86694a769add5120c9850267a1f94357b4cc98c4887b89e",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/fig5_3_dtlz2_sample_size_sensitivity.pdf",
+      "original_path": "revision/results/For paper/fig5_3_dtlz2_sample_size_sensitivity.pdf",
+      "sha256": "227bd34b4324912b988da8bdb243b9abc4b0c8aecfd00a55e207a698e609d34f",
+      "repo_sha256": "227bd34b4324912b988da8bdb243b9abc4b0c8aecfd00a55e207a698e609d34f",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/fig5_4_reliability_vs_pareto.pdf",
+      "original_path": "revision/results/For paper/fig5_4_reliability_vs_pareto.pdf",
+      "sha256": "f4f4f24cdd0ee6609509a59ee09650f72be3d1c0b6b7a08275cbc4a2891a36a5",
+      "repo_sha256": "f4f4f24cdd0ee6609509a59ee09650f72be3d1c0b6b7a08275cbc4a2891a36a5",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_5_controlled_benchmark_summary.pdf",
+      "original_path": "revision/results/For paper/table_5_controlled_benchmark_summary.pdf",
+      "sha256": "87889f157a46459df8fe17db4a31f60138d4d4da528c08b80bac1fd9066eda1a",
+      "repo_sha256": "87889f157a46459df8fe17db4a31f60138d4d4da528c08b80bac1fd9066eda1a",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_5_controlled_benchmark_summary_formatted.csv",
+      "original_path": "revision/results/For paper/table_5_controlled_benchmark_summary_formatted.csv",
+      "sha256": "3130b4e6ece7e9a640379fcd10450eb886d256abca9287b8c38bb5ff88f08675",
+      "repo_sha256": "3130b4e6ece7e9a640379fcd10450eb886d256abca9287b8c38bb5ff88f08675",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_5_controlled_benchmark_summary_numeric.csv",
+      "original_path": "revision/results/For paper/table_5_controlled_benchmark_summary_numeric.csv",
+      "sha256": "64918be944f5f2b7d963acbf44185497c00b0cb345ec2882714ecf0c4f5fddf2",
+      "repo_sha256": "64918be944f5f2b7d963acbf44185497c00b0cb345ec2882714ecf0c4f5fddf2",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_benchmark_cost_evaluation_formatted.csv",
+      "original_path": "revision/results/For paper/table_benchmark_cost_evaluation_formatted.csv",
+      "sha256": "d47dc5a449ffbfb306e11cb593d015f36af7f52949674577d518b42c2665259b",
+      "repo_sha256": "d47dc5a449ffbfb306e11cb593d015f36af7f52949674577d518b42c2665259b",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_benchmark_cost_evaluation_numeric.csv",
+      "original_path": "revision/results/For paper/table_benchmark_cost_evaluation_numeric.csv",
+      "sha256": "9322c2e626c51570ba1a6b2f6fcca73c0d9012b1567cc2c751ec0113b3cb18c6",
+      "repo_sha256": "9322c2e626c51570ba1a6b2f6fcca73c0d9012b1567cc2c751ec0113b3cb18c6",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_calibration_reliability_diagonal.csv",
+      "original_path": "revision/results/For paper/table_calibration_reliability_diagonal.csv",
+      "sha256": "8bf83cab2155a957985620537c59d0546be458d621f63489831b6e03caecd58b",
+      "repo_sha256": "8bf83cab2155a957985620537c59d0546be458d621f63489831b6e03caecd58b",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_dtlz2_sample_size_sensitivity - update.csv",
+      "original_path": "revision/results/For paper/table_dtlz2_sample_size_sensitivity - update.csv",
+      "sha256": "592055e1fb684335d7ba7a5c938ea5fbb0bd3049d7fdf7e248eb54b894f9354a",
+      "repo_sha256": "592055e1fb684335d7ba7a5c938ea5fbb0bd3049d7fdf7e248eb54b894f9354a",
+      "role": "archived reference"
+    },
+    {
+      "path": "workflows/benchmark/reference/paper/table_dtlz2_sample_size_sensitivity.csv",
+      "original_path": "revision/results/For paper/table_dtlz2_sample_size_sensitivity.csv",
+      "sha256": "b0febe3e638cc2699662bdef89e7e8b876fd3e5e1a89a4b92333ed9cac7d6505",
+      "repo_sha256": "b0febe3e638cc2699662bdef89e7e8b876fd3e5e1a89a4b92333ed9cac7d6505",
+      "role": "archived reference"
+    }
+  ],
+  "extractions": [
+    {
+      "key": "fon_five_methods",
+      "original_path": "revision/CaseStudy_benchmark_FON_clean_10seeds_5methods_with_metrics.ipynb",
+      "notebook_sha256": "9faba311d3018255ed2b1f146bd8f85aa6a787030079b4ab9f590dcc0ee8ebef",
+      "cell_indices_zero_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "source_directory": "workflows/benchmark/source_cells/fon_five_methods"
+    },
+    {
+      "key": "dtlz2_five_methods",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_clean_20seeds_5methods_with_metrics.ipynb",
+      "notebook_sha256": "bcea9edab082e2182cfee41841f7018df365269ca71bd5ab2346dd1fa356940e",
+      "cell_indices_zero_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "source_directory": "workflows/benchmark/source_cells/dtlz2_five_methods"
+    },
+    {
+      "key": "fon_vanilla",
+      "original_path": "revision/FON_true_vanilla_GP_complete_q25_q75.ipynb",
+      "notebook_sha256": "4f474a87b51381c834ce4631f0ee8d612af35c035c2b984d5bc762a27a491707",
+      "cell_indices_zero_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_directory": "workflows/benchmark/source_cells/fon_vanilla"
+    },
+    {
+      "key": "dtlz2_vanilla",
+      "original_path": "revision/DTLZ2_true_vanilla_GP_complete_q25_q75.ipynb",
+      "notebook_sha256": "256122af1e9054e785c0775a5bb8a748171767cf9313ead5386914c1bfc0ec19",
+      "cell_indices_zero_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "source_directory": "workflows/benchmark/source_cells/dtlz2_vanilla"
+    },
+    {
+      "key": "fon_cv_metrics",
+      "original_path": "revision/CaseStudy_benchmark_FON_add_surrogate_calibration_metrics.ipynb",
+      "notebook_sha256": "df74f4853cf31ca4513b1c3481ad19e2cc646e78162c2ca71e76f65355722d6c",
+      "cell_indices_zero_based": [
+        2,
+        4,
+        5,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        34,
+        37,
+        39,
+        40,
+        42
+      ],
+      "source_directory": "workflows/benchmark/source_cells/fon_cv_metrics"
+    },
+    {
+      "key": "dtlz2_cv_metrics",
+      "original_path": "revision/CaseStudy_benchmark_DTLZ2_cvplus_metrics_fixed.ipynb",
+      "notebook_sha256": "aab6efa1c9d63390b2fdd32dbaeceac5153c4812325d9783362c9f3f34675cb0",
+      "cell_indices_zero_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "source_directory": "workflows/benchmark/source_cells/dtlz2_cv_metrics"
+    },
+    {
+      "key": "fon_legacy_pareto",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_FON.ipynb",
+      "notebook_sha256": "17ae42e213ced17e80c2824f7f582c36d5ffadcd9c0284ac34dd77be48aac950",
+      "cell_indices_zero_based": [
+        2,
+        4,
+        5,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        35,
+        37,
+        38,
+        40
+      ],
+      "source_directory": "workflows/benchmark/source_cells/fon_legacy_pareto"
+    },
+    {
+      "key": "dtlz2_legacy_pareto",
+      "original_path": "Surrogate_models_for_small-size_datasets/CaseStudy_benchmark_DTLZ2.ipynb",
+      "notebook_sha256": "b451af468549439f91329885382cb9608ae2a742fc01acff0b5f86338772d45c",
+      "cell_indices_zero_based": [
+        2,
+        3,
+        6,
+        7,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        41,
+        42,
+        48,
+        50,
+        52
+      ],
+      "source_directory": "workflows/benchmark/source_cells/dtlz2_legacy_pareto"
+    }
+  ],
+  "adaptations": [
+    "Runner redirects output paths, imports ROOT/legacy and supplies a no-op notebook display helper; original source_cells files and figure scripts remain unmodified.",
+    "DTLZ2 true-vanilla: supplies BENCHMARK_NAME=DTLZ2 before cell2 references it; original cell4 later assigns same value.",
+    "DTLZ2 legacy Pareto cell48: out=evaluate_one_trial becomes out,_trial_model=evaluate_one_trial to adapt its saved tuple return; numerical trial code unchanged.",
+    "DTLZ2 cv-metrics stage restricts current cell6 sensitivity loop to N=70, matching archived DTLZ2.csv metadata; sensitivity stage preserves N=[30,50,90,110].",
+    "Legacy Pareto output filename explicitly names cv/raw because saved DTLZ2 cell52 filename normal_cali does not match its active CV calibration function.",
+    "Explicit --smoke reduces seeds,pool,evaluation,candidates,bags,NSGA generations and vanilla iterations; every substitution recorded per execution.json.",
+    "Retain every returned DTLZ2 sensitivity batch frame for validation, so caught failures in an earlier sample-size batch cannot be hidden by later successes. This changes only failure reporting."
+  ],
+  "lineage_limits": [
+    "Final summaries assembled across revision accuracy runs, true-vanilla replacements, later CV metric runs and legacy Pareto CSVs; no final assembly script found.",
+    "Final ECE/coverage summary values target0.95; saved training cells target0.90. Preserved verbatim, without attempting methodology changes or inferred reconstruction.",
+    "Final FON CV coverage does not match preserved FON.csv seed coverage; FON.csv has appended summary rows.",
+    "Legacy DTLZ2 Pareto/CV metrics use N=70; clean five-method accuracy uses N=50.",
+    "Historical split-calibrated legacy producer version not saved; current calibration-on cells call CV. Split reference CSV preserved but no exact historical split training claim.",
+    "Current cost generator includes Runs column absent from archived formatted CSV; historical columns and numeric timings match.",
+    "The final sensitivity workbook contains N=70 from separate CV run plus N=[30,50,90,110] sensitivity runs.",
+    "Full 20-seed stages have not been rerun for this packaging task; smoke checks validate execution, not equality with final historical metrics."
+  ],
+  "verified_final_pareto_values": 270,
+  "smoke_validation": [
+    "fon vanilla",
+    "dtlz2 five-methods selected",
+    "fon cv-metrics",
+    "dtlz2 legacy-pareto cv",
+    "dtlz2 cv-metrics (N70)",
+    "fon five-methods cv",
+    "dtlz2 vanilla",
+    "dtlz2 sensitivity (N30)"
+  ],
+  "validation": {
+    "figures": "completed",
+    "lineage": "270/270 values matched",
+    "orchestration_regressions": "3 tests passed; earlier sensitivity batch failure and protected repo root checked",
+    "training_scope": "smoke only; no full 20-seed run"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "evaluation_protocol": "nested repeated outer K-fold CV with observation-level OOF predictions",
+  "repeat_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "n_repeats": 10,
+  "outer_folds": 5,
+  "inner_folds": 5,
+  "independent_observational_units": 50,
+  "repeats_interpretation": "partition sensitivity only; not independent replication",
+  "dataset_level_ci_unit": "original_observation_id",
+  "bootstrap_reps": 2000,
+  "bootstrap_confidence": 0.95,
+  "fixed_family": "IND",
+  "fixed_kernel": "[\"Matern\", 2.5]",
+  "kernel_grid": [
+    "[\"RBF\", null]",
+    "[\"Matern\", 0.5]",
+    "[\"Matern\", 1.5]",
+    "[\"Matern\", 2.5]"
+  ],
+  "bagging_bags": 20,
+  "bagging_total_models": 21,
+  "feature_names": [
+    "d1",
+    "d2",
+    "d3",
+    "d4",
+    "v"
+  ],
+  "target_names": [
+    "V",
+    "TD"
+  ],
+  "normalization_for_reported_normalized_metrics": "fixed full-dataset target mean/std; used only to scale evaluation metrics, never for model fitting"
+}

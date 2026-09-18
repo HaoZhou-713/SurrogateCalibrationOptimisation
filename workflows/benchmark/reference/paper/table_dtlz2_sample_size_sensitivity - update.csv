@@ -1,0 +1,21 @@
+n_train,method,metric,median,q25,q75,interval_lower,interval_upper,source
+30,Selected + Bagging + CV+,nRMSE_mean,0.072805236,0.067599322,0.077042206,0.067599322,0.077042206,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+30,Selected + Bagging + CV+,ECE95,0.0419,0.07375,0.003875,0.003875,0.07375,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+30,Selected + Bagging + CV+,HV_ratio,0.845493575,0.81180598,0.869362304,0.81180598,0.869362304,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+30,Selected + Bagging + CV+,Recall,0.089,0.021,0.185,0.02114,0.18549,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+50,Selected + Bagging + CV+,nRMSE_mean,0.061548164,0.057939432,0.063063262,0.057939432,0.063063262,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+50,Selected + Bagging + CV+,ECE95,0.00685,0.024975,0.016025,0.00685,0.024975,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+50,Selected + Bagging + CV+,HV_ratio,0.921306898,0.897013239,0.939885317,0.897013239,0.939885317,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+50,Selected + Bagging + CV+,Recall,0.35,0.15,0.6,0.15625,0.6358,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+70,Selected + Bagging + CV,nRMSE_mean,0.048058997,0.046589748,0.049785451,0.046589748,0.049785451,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+70,Selected + Bagging + CV,ECE95,0.00495,0.0181,0.017625,0.00495,0.0181,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+70,Selected + Bagging + CV,HV_ratio,0.9964985,0.994366239,0.997067741,0.994366239,0.997067741,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+70,Selected + Bagging + CV,Recall,0.893,0.669375,0.992875,0.669375,0.992875,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+90,Selected + Bagging + CV+,nRMSE_mean,0.033416607,0.031618856,0.036162361,0.031618856,0.036162361,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+90,Selected + Bagging + CV+,ECE95,0.007,0.03355,0.015075,0.007,0.03355,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+90,Selected + Bagging + CV+,HV_ratio,0.995672561,0.986071945,0.996804618,0.986071945,0.996804618,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+90,Selected + Bagging + CV+,Recall,0.964,0.86,0.9685,0.86375,0.9685,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+110,Selected + Bagging + CV+,nRMSE_mean,0.021460209,0.020379066,0.023343252,0.020379066,0.023343252,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+110,Selected + Bagging + CV+,ECE95,0.0026,0.022875,0.019075,0.0026,0.022875,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+110,Selected + Bagging + CV+,HV_ratio,0.997931574,0.997772899,0.998080807,0.997772899,0.998080807,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95
+110,Selected + Bagging + CV+,Recall,0.99025,0.9845,0.994125,0.9845,0.994125,results\dtlz2_samples_sensitivity\DTLZ2_sample_size_sensitivity_full_data_ECE95.xlsx::Key_Metrics_ECE95

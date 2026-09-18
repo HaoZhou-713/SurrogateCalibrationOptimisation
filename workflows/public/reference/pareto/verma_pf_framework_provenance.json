@@ -1,0 +1,76 @@
+{
+  "objective_order": [
+    "T",
+    "P",
+    "TD"
+  ],
+  "objective_units": [
+    "K",
+    "Pa",
+    "K"
+  ],
+  "normalization_reference": "All saved PF points pooled across all methods and runs; observed data excluded from fitting ranges",
+  "normalization_min": [
+    301.0886612308471,
+    -78.78452750971928,
+    0.32855359539869333
+  ],
+  "normalization_max": [
+    314.5078190571433,
+    2268.909531264907,
+    10.629502981298138
+  ],
+  "distance": "Exact symmetric Hausdorff, Euclidean normalized 3D predictive-mean coordinates",
+  "medoid": "Minimum mean distance to other runs; exact ties resolved by smallest run ID",
+  "dispersion": "Mean over unordered pairs of distinct runs; NaN if fewer than two runs",
+  "rates_aggregation": "Arithmetic mean of per-run fractions, matching compute_nonphysical_rate in source notebook",
+  "distances_aggregation": "Pooled saved solutions including repeats/duplicates and zero distances for inside candidates; NumPy linear quantiles",
+  "quantitative_support": "3D convex hull of all observed objective vectors, matching notebook cells 33/35",
+  "support_distance": "Minimum Euclidean distance to all triangular hull facets in normalized 3D space; zero inside",
+  "support_membership_tolerance": 1e-10,
+  "main_background": "Projected full observed hull; visual context, not an optimisation constraint or feasibility certificate",
+  "supplementary_background": "Original method-specific union of k=5 nearest observed neighbours in unnormalized 3D objective space; projected convex hull",
+  "palette_source": "revision/results/For paper/generate_section6_public_btms_figures.py: PF_METHOD_COLORS; orange added for raw_uncertainty",
+  "saved_metadata": {
+    "dataset": "Verma",
+    "frameworks": [
+      "raw",
+      "raw_uncertainty",
+      "cal"
+    ],
+    "beta": 1,
+    "pop_size": 256,
+    "n_gen": 150,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "sense": [
+      "min",
+      "min",
+      "min"
+    ],
+    "use_hull": false
+  },
+  "membership_caveat": "Saved Y_pareto values are means, while membership uses full 3D framework-specific objectives. Y_for_pareto and predictive standard deviations are not in this store; original uncertainty-aware nondominance cannot be revalidated from this pickle alone.",
+  "optional_metric_missing_data": [],
+  "input_and_original_diagnostic_sha256": {
+    "C:\\Users\\n12046299\\OneDrive - Queensland University of Technology\\Researches!!\\QUT\\Project\\physics_test\\Surrogate_models_for_small-size_datasets\\pareto_results\\verma_pf_store.pkl": "e1335cb895c5e19fa54f3e1ac2cf5ff4b1067cdef2b9cbb3a858ca58f1f7c08d",
+    "C:\\Users\\n12046299\\OneDrive - Queensland University of Technology\\Researches!!\\QUT\\Project\\physics_test\\battery_data_Verma_modify.xlsx": "c8913be0443a22b34e891fc76c6a6c1120dc03794cc6efdc3d96c24ba87665c9",
+    "C:\\Users\\n12046299\\OneDrive - Queensland University of Technology\\Researches!!\\QUT\\Project\\physics_test\\Surrogate_models_for_small-size_datasets\\pf_overlay_support_3d_pairwise.pdf": "b07276bf6a80523a4e7f19514890aa4a7441f294edbba255cb58d5055c90c60c",
+    "C:\\Users\\n12046299\\OneDrive - Queensland University of Technology\\Researches!!\\QUT\\Project\\physics_test\\Surrogate_models_for_small-size_datasets\\pf_overlay_support_3d_pairwise.png": "7908e64c3aed9786342e21b0cc2cc753fb3d5466e919a2549c60ee884c45ead7",
+    "C:\\Users\\n12046299\\OneDrive - Queensland University of Technology\\Researches!!\\QUT\\Project\\physics_test\\Surrogate_models_for_small-size_datasets\\pf_overlay_support_3d_pairwise_03Sep.pdf": "9978c5f749fb77adcbb5b7a26eaf76bff5eed526b1a6a62d8501afebafe4caab",
+    "C:\\Users\\n12046299\\OneDrive - Queensland University of Technology\\Researches!!\\QUT\\Project\\physics_test\\Surrogate_models_for_small-size_datasets\\pf_overlay_support_3d_pairwise_03Sep.png": "e974616e0b5f7f0f1c8cf290fc2ab20519a4d7176a2151ad9a7dbe8cf6173e40"
+  },
+  "protected_files_unchanged": true,
+  "png_dpi": 600,
+  "pdf_all_vector": true
+}
