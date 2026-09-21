@@ -54,8 +54,8 @@
     },
     {
       "path": "docs/public.md",
-      "bytes": 7556,
-      "sha256": "978b2d26e911126e008c740dc496755b4051106b2787099ff6650dcd3341e2f8"
+      "bytes": 7912,
+      "sha256": "006cc3a80f24625e7e1418b923bd6989e8c9e6d9c67d26ca561b0ec3aad88249"
     },
     {
       "path": "docs/validation.md",
@@ -94,8 +94,8 @@
     },
     {
       "path": "provenance/public.json",
-      "bytes": 49285,
-      "sha256": "8403b079769a4070002da5a328221e83832fe32822b4c11005e9c7a80b1bcccc"
+      "bytes": 50112,
+      "sha256": "f574db572afe162b9a697db8886d43d39f91adecebf74fc55c265a7c513c7aa8"
     },
     {
       "path": "provenance/validation-results.json",
@@ -849,8 +849,8 @@
     },
     {
       "path": "workflows/public/plots/plot_verma_pf_local_support_3x3.py",
-      "bytes": 4238,
-      "sha256": "d97462170dbd46fdc438d2eb9dab09f45b3698283d8cc85097af822e23c16acb"
+      "bytes": 4587,
+      "sha256": "4c6825028f1305936ccbd666b7fc0399396e989b9e241f13816f71292b930dd9"
     },
     {
       "path": "workflows/public/plots/test_verma_pf_framework_comparison.py",

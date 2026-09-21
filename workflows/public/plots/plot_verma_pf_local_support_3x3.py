@@ -71,16 +71,25 @@ def main():
     plot = load_plot_function(notebook)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     plot(store, observed, k_support=5, max_seeds=max(len(store[key]) for key in keys),
-         axis_labels=("T(K)", "P (W)", "TD (K)"), dpi=150,
-         save_pdf_path=args.output)
+         axis_labels=("T(K)", "P (W)", "TD (K)"), dpi=150)
     fig = plt.gcf()
     assert len(fig.axes) == 9
+    # Keep legend text readable over the support hull and training points.
+    for ax in fig.axes:
+        legend = ax.get_legend()
+        legend.set_frame_on(True)
+        frame = legend.get_frame()
+        frame.set_facecolor("white")
+        frame.set_edgecolor("0.5")
+        frame.set_alpha(1.0)
+        frame.set_linewidth(0.8)
     for row, pair in enumerate(((0, 1), (0, 2), (1, 2))):
         for column, key in enumerate(keys):
             collections = fig.axes[row * 3 + column].collections
             assert len(collections) == 1 + len(store[key])
             for artist, (_, _, yp) in zip(collections[1:], store[key]):
                 np.testing.assert_array_equal(np.asarray(artist.get_offsets()), yp[:, pair])
+    fig.savefig(args.output, bbox_inches="tight")
     if args.preview:
         fig.savefig(args.preview, dpi=150, bbox_inches="tight")
     plt.close(fig)

@@ -462,7 +462,8 @@
       "path": "workflows/public/plots/plot_verma_pf_local_support_3x3.py",
       "original_path": "Surrogate_models_for_small-size_datasets/pareto_results/plot_verma_pf_local_support_3x3.py",
       "sha256": "b60c6970ef0d290b3bc5a9f234ac1403b63b8c78fc8c18dbd01bb699d69ff3cc",
-      "role": "original final Pareto plotting source"
+      "role": "original final Pareto plotting source with documented path and presentation adaptations",
+      "repo_sha256": "4c6825028f1305936ccbd666b7fc0399396e989b9e241f13816f71292b930dd9"
     },
     {
       "path": "workflows/public/plots/test_verma_pf_framework_comparison.py",
@@ -806,7 +807,8 @@
         "source = HERE / \"verma_pf_store.pkl\"": "source = HERE.parent / \"reference\" / \"pareto\" / \"verma_pf_store.pkl\"",
         "observed_path = HERE.parents[1] / \"battery_data_Verma_modify.xlsx\"": "observed_path = HERE.parent / \"data\" / \"battery_data_Verma_modify.xlsx\""
       },
-      "modified_sha256": "d97462170dbd46fdc438d2eb9dab09f45b3698283d8cc85097af822e23c16acb"
+      "modified_sha256": "4c6825028f1305936ccbd666b7fc0399396e989b9e241f13816f71292b930dd9",
+      "hash_scope": "Current packaged file, including the separately documented presentation update."
     }
   ],
   "runtime_modifications": [
@@ -851,5 +853,17 @@
     "not_executed": [
       "Full repeated nested and Pareto training at original complete settings."
     ]
-  }
+  },
+  "presentation_modifications": [
+    {
+      "path": "workflows/public/plots/plot_verma_pf_local_support_3x3.py",
+      "date": "2026-09-21",
+      "changes": [
+        "Draw opaque white legend backgrounds with grey borders for readability.",
+        "Save the PDF after applying legend styling."
+      ],
+      "modified_sha256": "4c6825028f1305936ccbd666b7fc0399396e989b9e241f13816f71292b930dd9",
+      "validation": "Actual plot generation passed: nine panels and all 7680 saved Pareto points retained in every projection; input file hashes unchanged."
+    }
+  ]
 }

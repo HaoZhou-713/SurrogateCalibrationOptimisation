@@ -17,6 +17,8 @@ python workflows/public/run.py train --dataset verma --stage pareto
 
 `figures` performs no model fitting. It recreates the saved Li three-framework Pareto plot, the Verma main and supplementary framework plots, the final Verma local-support plot, and the latest nested calibration reliability plots. Verma numerical framework summaries are recomputed from the preserved Pareto coordinates. All generated files go to `outputs/public`, or the directory passed with `--output-dir`. Training outputs have separate dataset, stage, and `full`/`smoke` subdirectories. Archived `reference/` files are never overwritten.
 
+The Verma 3x3 local-support plot includes a presentation update: each legend has an opaque white background and a grey border, and the PDF is saved after applying this style. All saved Pareto points and support calculations are preserved. The archived reference PDF retains its original appearance; this adaptation is recorded in `provenance/public.json`.
+
 For a bounded execution check, add `--smoke` to any training command. This is explicitly a reduced run, not reproduction of the published numerical values:
 
 ```powershell
